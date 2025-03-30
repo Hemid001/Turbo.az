@@ -1,0 +1,1206 @@
+2025-03-29 00:03:34.174 +04:00 [INF] Executed DbCommand (26ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 00:03:34.304 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 00:03:34.312 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 00:03:35.123 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 00:03:35.960 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-03-29 00:03:36.096 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-29 00:03:36.097 +04:00 [INF] Hosting environment: Development
+2025-03-29 00:03:36.098 +04:00 [INF] Content root path: C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer
+2025-03-29 00:03:36.610 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 676.556ms
+2025-03-29 00:03:37.129 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-03-29 00:03:37.129 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-03-29 00:03:37.130 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-29 00:03:37.157 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 18.6562ms
+2025-03-29 00:03:37.158 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 16.3727ms
+2025-03-29 00:03:37.418 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 287.065ms
+2025-03-29 00:03:37.556 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-03-29 00:03:37.626 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.3518ms
+2025-03-29 11:00:59.448 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:00:59.559 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:00:59.565 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:00:59.823 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 11:01:00.820 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-03-29 11:01:00.976 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-29 11:01:00.977 +04:00 [INF] Hosting environment: Development
+2025-03-29 11:01:00.979 +04:00 [INF] Content root path: C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer
+2025-03-29 11:01:01.862 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 1096.6356ms
+2025-03-29 11:01:02.234 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-03-29 11:01:02.232 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-03-29 11:01:02.232 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-29 11:01:02.291 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 64.741ms
+2025-03-29 11:01:02.305 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 60.0632ms
+2025-03-29 11:01:02.594 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 354.9384ms
+2025-03-29 11:01:02.815 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-03-29 11:01:03.067 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 252.4284ms
+2025-03-29 11:06:38.585 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Account/Login - application/json 58
+2025-03-29 11:06:38.793 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 11:06:38.841 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-03-29 11:06:39.034 +04:00 [INF] Executed DbCommand (26ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-29 11:06:39.312 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-29 11:06:39.358 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 11:06:39.364 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:06:39.374 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-29 11:06:39.390 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-29 11:06:39.395 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 11:06:39.447 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-29 11:06:39.458 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 612.5427ms
+2025-03-29 11:06:39.460 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 11:06:39.467 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Account/Login - 200 null application/json; charset=utf-8 899.3131ms
+2025-03-29 11:08:29.537 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 72
+2025-03-29 11:08:29.660 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:08:29.668 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:08:29.832 +04:00 [INF] Executed DbCommand (114ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:08:29.886 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:08:29.888 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 220.5429ms
+2025-03-29 11:08:29.889 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:08:29.890 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 366.4703ms
+2025-03-29 11:08:57.553 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 72
+2025-03-29 11:08:57.581 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:08:57.593 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:08:57.672 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:08:57.678 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:08:57.681 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 61.823ms
+2025-03-29 11:08:57.681 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:08:57.682 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 138.7093ms
+2025-03-29 11:09:08.737 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 74
+2025-03-29 11:09:08.766 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:09:08.767 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:09:08.806 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:09:08.844 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:09:08.845 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 77.3252ms
+2025-03-29 11:09:08.845 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:09:08.846 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 116.3466ms
+2025-03-29 11:09:28.903 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 61
+2025-03-29 11:09:28.924 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:09:28.925 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:09:28.966 +04:00 [INF] Executed DbCommand (19ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:09:28.974 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:09:28.976 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 48.6303ms
+2025-03-29 11:09:28.977 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:09:28.978 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 86.7856ms
+2025-03-29 11:09:39.125 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 62
+2025-03-29 11:09:39.144 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:09:39.145 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:09:39.200 +04:00 [INF] Executed DbCommand (22ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:09:39.207 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:09:39.208 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 62.6439ms
+2025-03-29 11:09:39.209 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:09:39.210 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 92.6881ms
+2025-03-29 11:10:21.474 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 66
+2025-03-29 11:10:21.497 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:10:21.499 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:10:21.590 +04:00 [INF] Executed DbCommand (67ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:10:21.606 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:10:21.607 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 107.2101ms
+2025-03-29 11:10:21.607 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:10:21.608 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 163.3648ms
+2025-03-29 11:10:33.149 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 66
+2025-03-29 11:10:33.169 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:10:33.172 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:10:33.236 +04:00 [INF] Executed DbCommand (34ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:10:33.241 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:10:33.244 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 70.8852ms
+2025-03-29 11:10:33.244 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:10:33.245 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 101.112ms
+2025-03-29 11:10:44.527 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/Admin/All Statuses - null null
+2025-03-29 11:10:44.541 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer)'
+2025-03-29 11:10:44.555 +04:00 [INF] Route matched with {action = "GetAllStatuses", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllStatuses() on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:10:44.619 +04:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+2025-03-29 11:10:44.642 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.Status.GetStatusDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:10:44.659 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer) in 103.1537ms
+2025-03-29 11:10:44.659 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer)'
+2025-03-29 11:10:44.660 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/Admin/All Statuses - 200 null application/json; charset=utf-8 139.0967ms
+2025-03-29 11:13:57.002 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:13:57.080 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:13:57.082 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:13:57.345 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 11:13:57.983 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-03-29 11:13:58.169 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-29 11:13:58.173 +04:00 [INF] Hosting environment: Development
+2025-03-29 11:13:58.175 +04:00 [INF] Content root path: C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer
+2025-03-29 11:13:58.625 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 653.7377ms
+2025-03-29 11:13:58.870 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-03-29 11:13:58.870 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-03-29 11:13:58.872 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-29 11:13:58.899 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 23.985ms
+2025-03-29 11:13:58.910 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 41.2222ms
+2025-03-29 11:13:58.974 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.0607ms
+2025-03-29 11:13:59.370 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-03-29 11:13:59.524 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 159.9139ms
+2025-03-29 11:14:22.570 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Account/Login - application/json 58
+2025-03-29 11:14:22.762 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 11:14:22.802 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-03-29 11:14:23.017 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-29 11:14:23.174 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-29 11:14:23.195 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 11:14:23.201 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:14:23.210 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-29 11:14:23.230 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-29 11:14:23.236 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 11:14:23.284 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-29 11:14:23.292 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 486.9504ms
+2025-03-29 11:14:23.293 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 11:14:23.304 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Account/Login - 200 null application/json; charset=utf-8 749.221ms
+2025-03-29 11:14:42.974 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/Admin/All Statuses - null null
+2025-03-29 11:14:43.075 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer)'
+2025-03-29 11:14:43.084 +04:00 [INF] Route matched with {action = "GetAllStatuses", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllStatuses() on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:14:55.515 +04:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+2025-03-29 11:15:53.268 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.Status.GetStatusDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:15:53.310 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer) in 70226.061ms
+2025-03-29 11:15:53.311 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer)'
+2025-03-29 11:15:53.318 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/Admin/All Statuses - 200 null application/json; charset=utf-8 70358.7325ms
+2025-03-29 11:16:21.806 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 72
+2025-03-29 11:16:21.848 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:16:21.861 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:16:30.918 +04:00 [INF] Executed DbCommand (55ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:17:45.676 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:17:45.692 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 83826.9889ms
+2025-03-29 11:17:45.693 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:17:45.699 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 83899.8642ms
+2025-03-29 11:26:28.066 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:26:28.168 +04:00 [INF] Executed DbCommand (18ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:26:28.176 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:26:28.555 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 11:26:29.312 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-03-29 11:26:29.416 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-29 11:26:29.416 +04:00 [INF] Hosting environment: Development
+2025-03-29 11:26:29.417 +04:00 [INF] Content root path: C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer
+2025-03-29 11:26:30.005 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 719.475ms
+2025-03-29 11:26:30.537 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-03-29 11:26:30.537 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-29 11:26:30.539 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-03-29 11:26:30.801 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 226.4561ms
+2025-03-29 11:26:30.850 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 296.4914ms
+2025-03-29 11:26:31.048 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 514.9691ms
+2025-03-29 11:26:31.334 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-03-29 11:26:31.448 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.9649ms
+2025-03-29 11:27:06.463 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Account/Login - application/json 58
+2025-03-29 11:27:06.650 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 11:27:06.680 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-03-29 11:27:06.889 +04:00 [INF] Executed DbCommand (28ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-29 11:27:07.076 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-29 11:27:07.104 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 11:27:07.112 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:27:07.120 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-29 11:27:07.136 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-29 11:27:07.141 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 11:27:07.183 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-29 11:27:07.199 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 511.1567ms
+2025-03-29 11:27:07.200 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 11:27:07.205 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Account/Login - 200 null application/json; charset=utf-8 747.4315ms
+2025-03-29 11:27:42.818 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 72
+2025-03-29 11:27:42.944 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:27:42.959 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:27:43.023 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:27:43.302 +04:00 [INF] Executed DbCommand (122ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Statuses] ([EndTime], [Price], [StatusName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-03-29 11:27:43.327 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:27:43.330 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 370.4978ms
+2025-03-29 11:27:43.331 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:27:43.332 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 532.5752ms
+2025-03-29 11:29:38.199 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 72
+2025-03-29 11:29:38.242 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:29:38.266 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:29:38.313 +04:00 [INF] Executed DbCommand (23ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:29:38.457 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 190.6085ms
+2025-03-29 11:29:38.459 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:29:38.512 +04:00 [ERR] An unhandled exception occurred: Status already exists
+System.InvalidOperationException: Status already exists
+   at TurboProject.BusinessLayer.Service.Impl.AdminService.CreateStatus(CreateStatusDto dto) in C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.BusinessLayer\Service\Impl\AdminService.cs:line 44
+   at TurboProject.APILayer.Controllers.AdminController.CreateStatus(CreateStatusDto dto) in C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer\Controllers\AdminController.cs:line 151
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TurboProject.APILayer.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer\Middleware\GlobalExceptionHandlerMiddleware.cs:line 23
+2025-03-29 11:29:38.667 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 500 null application/json; charset=utf-8 470.6529ms
+2025-03-29 11:29:47.762 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 73
+2025-03-29 11:29:47.786 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:29:47.787 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:29:47.832 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:29:47.882 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 94.6685ms
+2025-03-29 11:29:47.883 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:29:47.908 +04:00 [ERR] An unhandled exception occurred: Status already exists
+System.InvalidOperationException: Status already exists
+   at TurboProject.BusinessLayer.Service.Impl.AdminService.CreateStatus(CreateStatusDto dto) in C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.BusinessLayer\Service\Impl\AdminService.cs:line 44
+   at TurboProject.APILayer.Controllers.AdminController.CreateStatus(CreateStatusDto dto) in C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer\Controllers\AdminController.cs:line 151
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TurboProject.APILayer.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer\Middleware\GlobalExceptionHandlerMiddleware.cs:line 23
+2025-03-29 11:29:47.920 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 500 null application/json; charset=utf-8 172.5625ms
+2025-03-29 11:31:05.926 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 62
+2025-03-29 11:31:05.989 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:31:05.998 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:31:06.156 +04:00 [INF] Executed DbCommand (26ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:31:06.200 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Statuses] ([EndTime], [Price], [StatusName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-03-29 11:31:06.202 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:31:06.204 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 202.8041ms
+2025-03-29 11:31:06.205 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:31:06.206 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 288.9143ms
+2025-03-29 11:31:21.359 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 66
+2025-03-29 11:31:21.374 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:31:21.379 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:31:21.439 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:31:21.461 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Statuses] ([EndTime], [Price], [StatusName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-03-29 11:31:21.464 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:31:21.467 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 84.4812ms
+2025-03-29 11:31:21.467 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:31:21.469 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 144.1749ms
+2025-03-29 11:31:46.027 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 66
+2025-03-29 11:31:46.046 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:31:46.051 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:31:46.099 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:31:46.209 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 156.732ms
+2025-03-29 11:31:46.210 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:31:46.267 +04:00 [ERR] An unhandled exception occurred: Status already exists
+System.InvalidOperationException: Status already exists
+   at TurboProject.BusinessLayer.Service.Impl.AdminService.CreateStatus(CreateStatusDto dto) in C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.BusinessLayer\Service\Impl\AdminService.cs:line 44
+   at TurboProject.APILayer.Controllers.AdminController.CreateStatus(CreateStatusDto dto) in C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer\Controllers\AdminController.cs:line 151
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TurboProject.APILayer.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer\Middleware\GlobalExceptionHandlerMiddleware.cs:line 23
+2025-03-29 11:31:46.273 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 500 null application/json; charset=utf-8 248.5542ms
+2025-03-29 11:34:05.400 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/Admin/All Statuses - null null
+2025-03-29 11:34:05.420 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer)'
+2025-03-29 11:34:05.440 +04:00 [INF] Route matched with {action = "GetAllStatuses", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllStatuses() on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:34:05.530 +04:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+2025-03-29 11:34:05.553 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.Status.GetStatusDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:34:05.573 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer) in 133.4291ms
+2025-03-29 11:34:05.573 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer)'
+2025-03-29 11:34:05.575 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/Admin/All Statuses - 200 null application/json; charset=utf-8 176.6916ms
+2025-03-29 11:34:47.052 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:44307/api/Admin/Delete status {id} - null null
+2025-03-29 11:34:47.069 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer)'
+2025-03-29 11:34:47.098 +04:00 [INF] Route matched with {action = "DeleteStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[System.String]]] DeleteStatus(Int32) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:34:47.126 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-29 11:34:47.152 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer) in 53.8777ms
+2025-03-29 11:34:47.153 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer)'
+2025-03-29 11:34:47.153 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:44307/api/Admin/Delete status {id} - 400 null application/problem+json; charset=utf-8 110.1373ms
+2025-03-29 11:37:58.821 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:44307/api/Admin/Delete status {id} - null null
+2025-03-29 11:37:58.842 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer)'
+2025-03-29 11:37:58.844 +04:00 [INF] Route matched with {action = "DeleteStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[System.String]]] DeleteStatus(Int32) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:37:58.947 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-29 11:37:58.950 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer) in 106.1078ms
+2025-03-29 11:37:58.950 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer)'
+2025-03-29 11:37:58.951 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:44307/api/Admin/Delete status {id} - 400 null application/problem+json; charset=utf-8 141.2338ms
+2025-03-29 11:38:01.957 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:44307/api/Admin/Delete status {id} - null null
+2025-03-29 11:38:02.057 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer)'
+2025-03-29 11:38:02.059 +04:00 [INF] Route matched with {action = "DeleteStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[System.String]]] DeleteStatus(Int32) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:38:02.091 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-29 11:38:02.094 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer) in 34.782ms
+2025-03-29 11:38:02.094 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer)'
+2025-03-29 11:38:02.095 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:44307/api/Admin/Delete status {id} - 400 null application/problem+json; charset=utf-8 168.5509ms
+2025-03-29 11:42:59.184 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:42:59.240 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:42:59.244 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:42:59.421 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 11:42:59.678 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-03-29 11:42:59.737 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-29 11:42:59.739 +04:00 [INF] Hosting environment: Development
+2025-03-29 11:42:59.741 +04:00 [INF] Content root path: C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer
+2025-03-29 11:43:00.188 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 520.0797ms
+2025-03-29 11:43:00.754 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-03-29 11:43:00.758 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-03-29 11:43:00.767 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-29 11:43:00.793 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 86.9937ms
+2025-03-29 11:43:00.798 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 24.3958ms
+2025-03-29 11:43:01.280 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 513.0694ms
+2025-03-29 11:43:01.452 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-03-29 11:43:01.668 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 216.5185ms
+2025-03-29 11:43:56.050 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Account/Login - application/json 58
+2025-03-29 11:43:56.294 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 11:43:56.337 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-03-29 11:43:56.601 +04:00 [INF] Executed DbCommand (26ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-29 11:43:56.782 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-29 11:43:56.810 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 11:43:56.814 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:43:56.822 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-29 11:43:56.836 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-29 11:43:56.841 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 11:43:56.893 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-29 11:43:56.906 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 564.6172ms
+2025-03-29 11:43:56.907 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 11:43:56.919 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Account/Login - 200 null application/json; charset=utf-8 899.4755ms
+2025-03-29 11:44:17.304 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/Admin/All Statuses - null null
+2025-03-29 11:44:17.342 +04:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(String inputString, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-03-29 11:44:17.396 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-03-29 11:44:17.408 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-29 11:44:17.415 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-29 11:44:17.420 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/Admin/All Statuses - 401 null null 120.9942ms
+2025-03-29 11:44:45.821 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/Admin/All Statuses - null null
+2025-03-29 11:44:45.958 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer)'
+2025-03-29 11:44:45.974 +04:00 [INF] Route matched with {action = "GetAllStatuses", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllStatuses() on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:44:46.029 +04:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+2025-03-29 11:44:46.075 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.Status.GetStatusDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:44:46.096 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer) in 121.8572ms
+2025-03-29 11:44:46.097 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllStatuses (TurboProject.APILayer)'
+2025-03-29 11:44:46.098 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/Admin/All Statuses - 200 null application/json; charset=utf-8 284.878ms
+2025-03-29 11:45:12.925 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/Admin/Status {id} - null null
+2025-03-29 11:45:12.957 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.GetStatusById (TurboProject.APILayer)'
+2025-03-29 11:45:12.975 +04:00 [INF] Route matched with {action = "GetStatusById", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStatusById(Int32) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:45:13.026 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-29 11:45:13.071 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.GetStatusById (TurboProject.APILayer) in 94.9295ms
+2025-03-29 11:45:13.071 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.GetStatusById (TurboProject.APILayer)'
+2025-03-29 11:45:13.072 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/Admin/Status {id} - 400 null application/problem+json; charset=utf-8 151.3387ms
+2025-03-29 11:45:30.174 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:44307/api/Admin/DeletStatus/3 - null null
+2025-03-29 11:45:30.196 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer)'
+2025-03-29 11:45:30.212 +04:00 [INF] Route matched with {action = "DeleteStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[System.String]]] DeleteStatus(Int32) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:45:30.384 +04:00 [INF] Executed DbCommand (93ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[Id] = @__p_0
+2025-03-29 11:45:30.591 +04:00 [INF] Executed DbCommand (109ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Statuses]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-03-29 11:45:30.612 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:45:30.617 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer) in 405.3685ms
+2025-03-29 11:45:30.618 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteStatus (TurboProject.APILayer)'
+2025-03-29 11:45:30.619 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:44307/api/Admin/DeletStatus/3 - 200 null application/json; charset=utf-8 448.3055ms
+2025-03-29 11:46:16.501 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create status - application/json 66
+2025-03-29 11:46:16.527 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:46:16.554 +04:00 [INF] Route matched with {action = "CreateStatus", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateStatus(TurboProject.BusinessLayer.Model.DTO.Request.Status.CreateStatusDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:46:16.635 +04:00 [INF] Executed DbCommand (18ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[EndTime], [s].[Price], [s].[StatusName]
+FROM [Statuses] AS [s]
+WHERE [s].[StatusName] = @__name_0
+2025-03-29 11:46:16.707 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Statuses] ([EndTime], [Price], [StatusName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-03-29 11:46:16.721 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:46:16.722 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer) in 167.6942ms
+2025-03-29 11:46:16.722 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateStatus (TurboProject.APILayer)'
+2025-03-29 11:46:16.723 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create status - 200 null application/json; charset=utf-8 230.6293ms
+2025-03-29 11:49:30.494 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:49:30.542 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:49:30.548 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:49:30.717 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 11:49:31.189 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-03-29 11:49:31.302 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-29 11:49:31.303 +04:00 [INF] Hosting environment: Development
+2025-03-29 11:49:31.303 +04:00 [INF] Content root path: C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer
+2025-03-29 11:49:31.726 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 554.8235ms
+2025-03-29 11:49:31.930 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-03-29 11:49:31.933 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-29 11:49:31.933 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-03-29 11:49:31.956 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 28.4144ms
+2025-03-29 11:49:31.972 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 25.415ms
+2025-03-29 11:49:32.065 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 135.3546ms
+2025-03-29 11:49:32.376 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-03-29 11:49:32.527 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.6581ms
+2025-03-29 11:50:00.924 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Account/Login - application/json 58
+2025-03-29 11:50:01.235 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 11:50:01.274 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-03-29 11:50:01.434 +04:00 [INF] Executed DbCommand (22ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-29 11:50:01.601 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-29 11:50:01.635 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 11:50:01.641 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 11:50:01.649 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-29 11:50:01.680 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-29 11:50:01.688 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 11:50:01.738 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-29 11:50:01.748 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 468.7765ms
+2025-03-29 11:50:01.750 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 11:50:01.758 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Account/Login - 200 null application/json; charset=utf-8 839.9562ms
+2025-03-29 11:51:59.824 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - application/json 29
+2025-03-29 11:51:59.978 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:51:59.992 +04:00 [INF] Route matched with {action = "CreateBodyType", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBodyType(TurboProject.BusinessLayer.Model.DTO.Request.BodyType.CreateBodyTypeDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:52:00.132 +04:00 [INF] Executed DbCommand (41ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [BodyTypes] AS [b]
+        WHERE [b].[BodyTypeName] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:52:00.315 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BodyTypes] ([BodyTypeName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:52:00.347 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:52:00.350 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer) in 357.5341ms
+2025-03-29 11:52:00.350 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:52:00.351 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - 200 null application/json; charset=utf-8 540.7618ms
+2025-03-29 11:53:01.880 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - application/json 33
+2025-03-29 11:53:01.942 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:53:01.969 +04:00 [INF] Route matched with {action = "CreateBodyType", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBodyType(TurboProject.BusinessLayer.Model.DTO.Request.BodyType.CreateBodyTypeDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:53:02.062 +04:00 [INF] Executed DbCommand (68ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [BodyTypes] AS [b]
+        WHERE [b].[BodyTypeName] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:53:02.081 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BodyTypes] ([BodyTypeName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:53:02.082 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:53:02.084 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer) in 114.1528ms
+2025-03-29 11:53:02.084 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:53:02.085 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - 200 null application/json; charset=utf-8 220.5126ms
+2025-03-29 11:53:08.643 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - application/json 27
+2025-03-29 11:53:08.668 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:53:08.669 +04:00 [INF] Route matched with {action = "CreateBodyType", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBodyType(TurboProject.BusinessLayer.Model.DTO.Request.BodyType.CreateBodyTypeDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:53:08.725 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [BodyTypes] AS [b]
+        WHERE [b].[BodyTypeName] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:53:08.739 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BodyTypes] ([BodyTypeName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:53:08.740 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:53:08.742 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer) in 72.744ms
+2025-03-29 11:53:08.742 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:53:08.743 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - 200 null application/json; charset=utf-8 107.321ms
+2025-03-29 11:53:19.120 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - application/json 33
+2025-03-29 11:53:19.143 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:53:19.147 +04:00 [INF] Route matched with {action = "CreateBodyType", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBodyType(TurboProject.BusinessLayer.Model.DTO.Request.BodyType.CreateBodyTypeDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:53:19.209 +04:00 [INF] Executed DbCommand (34ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [BodyTypes] AS [b]
+        WHERE [b].[BodyTypeName] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:53:19.249 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BodyTypes] ([BodyTypeName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:53:19.250 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:53:19.252 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer) in 105.2802ms
+2025-03-29 11:53:19.253 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:53:19.256 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - 200 null application/json; charset=utf-8 149.3171ms
+2025-03-29 11:53:46.597 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - application/json 29
+2025-03-29 11:53:46.612 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:53:46.613 +04:00 [INF] Route matched with {action = "CreateBodyType", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBodyType(TurboProject.BusinessLayer.Model.DTO.Request.BodyType.CreateBodyTypeDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:53:46.659 +04:00 [INF] Executed DbCommand (18ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [BodyTypes] AS [b]
+        WHERE [b].[BodyTypeName] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:53:46.710 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BodyTypes] ([BodyTypeName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:53:46.712 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:53:46.713 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer) in 97.8111ms
+2025-03-29 11:53:46.713 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:53:46.714 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - 200 null application/json; charset=utf-8 120.5974ms
+2025-03-29 11:54:35.930 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:44307/api/Admin/DeleteBodyType/6 - null null
+2025-03-29 11:54:35.952 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteBodyType (TurboProject.APILayer)'
+2025-03-29 11:54:35.981 +04:00 [INF] Route matched with {action = "DeleteBodyType", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteBodyType(Int32) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:54:36.189 +04:00 [INF] Executed DbCommand (45ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[BodyTypeName]
+FROM [BodyTypes] AS [b]
+WHERE [b].[Id] = @__p_0
+2025-03-29 11:54:36.243 +04:00 [INF] Executed DbCommand (32ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [BodyTypes]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-03-29 11:54:36.249 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:54:36.251 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.DeleteBodyType (TurboProject.APILayer) in 268.4692ms
+2025-03-29 11:54:36.251 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteBodyType (TurboProject.APILayer)'
+2025-03-29 11:54:36.252 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:44307/api/Admin/DeleteBodyType/6 - 200 null application/json; charset=utf-8 325.2509ms
+2025-03-29 11:54:50.482 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - application/json 29
+2025-03-29 11:54:50.524 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:54:50.527 +04:00 [INF] Route matched with {action = "CreateBodyType", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBodyType(TurboProject.BusinessLayer.Model.DTO.Request.BodyType.CreateBodyTypeDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:54:50.570 +04:00 [INF] Executed DbCommand (19ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [BodyTypes] AS [b]
+        WHERE [b].[BodyTypeName] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:54:50.586 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BodyTypes] ([BodyTypeName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:54:50.588 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:54:50.590 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer) in 61.658ms
+2025-03-29 11:54:50.590 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBodyType (TurboProject.APILayer)'
+2025-03-29 11:54:50.591 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create bodytype - 200 null application/json; charset=utf-8 116.3572ms
+2025-03-29 11:55:44.663 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create brand - application/json 19
+2025-03-29 11:55:44.692 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer)'
+2025-03-29 11:55:44.718 +04:00 [INF] Route matched with {action = "CreateBrand", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBrand(TurboProject.BusinessLayer.Model.DTO.Request.Brand.CreateBrandDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:55:44.828 +04:00 [INF] Executed DbCommand (37ms) [Parameters=[@__name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Brands] AS [b]
+        WHERE [b].[Name] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:55:44.875 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@p0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Brands] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:55:44.881 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:55:44.882 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer) in 163.4857ms
+2025-03-29 11:55:44.882 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer)'
+2025-03-29 11:55:44.883 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create brand - 200 null application/json; charset=utf-8 225.9274ms
+2025-03-29 11:56:24.401 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create brand - application/json 24
+2025-03-29 11:56:24.426 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer)'
+2025-03-29 11:56:24.434 +04:00 [INF] Route matched with {action = "CreateBrand", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBrand(TurboProject.BusinessLayer.Model.DTO.Request.Brand.CreateBrandDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:56:24.514 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[@__name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Brands] AS [b]
+        WHERE [b].[Name] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:56:24.567 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Brands] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:56:24.568 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:56:24.572 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer) in 137.2199ms
+2025-03-29 11:56:24.573 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer)'
+2025-03-29 11:56:24.573 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create brand - 200 null application/json; charset=utf-8 182.5473ms
+2025-03-29 11:56:32.540 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create brand - application/json 20
+2025-03-29 11:56:32.571 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer)'
+2025-03-29 11:56:32.576 +04:00 [INF] Route matched with {action = "CreateBrand", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBrand(TurboProject.BusinessLayer.Model.DTO.Request.Brand.CreateBrandDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:56:32.636 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[@__name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Brands] AS [b]
+        WHERE [b].[Name] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:56:32.691 +04:00 [INF] Executed DbCommand (19ms) [Parameters=[@p0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Brands] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:56:32.742 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:56:32.766 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer) in 189.5577ms
+2025-03-29 11:56:32.766 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer)'
+2025-03-29 11:56:32.767 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create brand - 200 null application/json; charset=utf-8 234.1095ms
+2025-03-29 11:57:00.174 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:44307/api/Admin/Update brand - application/json 31
+2025-03-29 11:57:00.202 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.UpdateBrand (TurboProject.APILayer)'
+2025-03-29 11:57:00.227 +04:00 [INF] Route matched with {action = "UpdateBrand", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateBrand(TurboProject.BusinessLayer.Model.DTO.Request.Brand.UpdateBrandDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:57:00.346 +04:00 [INF] Executed DbCommand (37ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Name]
+FROM [Brands] AS [b]
+WHERE [b].[Id] = @__p_0
+2025-03-29 11:57:00.421 +04:00 [INF] Executed DbCommand (43ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Brands] SET [Name] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2025-03-29 11:57:00.424 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:57:00.426 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.UpdateBrand (TurboProject.APILayer) in 198.4741ms
+2025-03-29 11:57:00.426 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.UpdateBrand (TurboProject.APILayer)'
+2025-03-29 11:57:00.427 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:44307/api/Admin/Update brand - 200 null application/json; charset=utf-8 271.831ms
+2025-03-29 11:57:16.791 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:44307/api/Admin/Update brand - application/json 30
+2025-03-29 11:57:16.821 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.UpdateBrand (TurboProject.APILayer)'
+2025-03-29 11:57:16.824 +04:00 [INF] Route matched with {action = "UpdateBrand", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateBrand(TurboProject.BusinessLayer.Model.DTO.Request.Brand.UpdateBrandDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:57:16.919 +04:00 [INF] Executed DbCommand (22ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Name]
+FROM [Brands] AS [b]
+WHERE [b].[Id] = @__p_0
+2025-03-29 11:57:16.958 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Brands] SET [Name] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2025-03-29 11:57:16.959 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:57:16.963 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.UpdateBrand (TurboProject.APILayer) in 137.9645ms
+2025-03-29 11:57:16.963 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.UpdateBrand (TurboProject.APILayer)'
+2025-03-29 11:57:16.966 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:44307/api/Admin/Update brand - 200 null application/json; charset=utf-8 181.3875ms
+2025-03-29 11:57:48.918 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:44307/api/Admin/DeleteBrand/4 - null null
+2025-03-29 11:57:48.928 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteBrand (TurboProject.APILayer)'
+2025-03-29 11:57:48.952 +04:00 [INF] Route matched with {action = "DeleteBrand", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteBrand(Int32) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:57:49.001 +04:00 [INF] Executed DbCommand (22ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Name]
+FROM [Brands] AS [b]
+WHERE [b].[Id] = @__p_0
+2025-03-29 11:57:49.115 +04:00 [INF] Executed DbCommand (49ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Brands]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-03-29 11:57:49.122 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:57:49.140 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.DeleteBrand (TurboProject.APILayer) in 187.998ms
+2025-03-29 11:57:49.141 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteBrand (TurboProject.APILayer)'
+2025-03-29 11:57:49.141 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:44307/api/Admin/DeleteBrand/4 - 200 null application/json; charset=utf-8 229.0869ms
+2025-03-29 11:58:03.610 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create brand - application/json 20
+2025-03-29 11:58:03.650 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer)'
+2025-03-29 11:58:03.656 +04:00 [INF] Route matched with {action = "CreateBrand", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBrand(TurboProject.BusinessLayer.Model.DTO.Request.Brand.CreateBrandDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:58:03.712 +04:00 [INF] Executed DbCommand (19ms) [Parameters=[@__name_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Brands] AS [b]
+        WHERE [b].[Name] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:58:03.734 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Brands] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:58:03.735 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:58:03.737 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer) in 80.3901ms
+2025-03-29 11:58:03.737 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateBrand (TurboProject.APILayer)'
+2025-03-29 11:58:03.738 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create brand - 200 null application/json; charset=utf-8 132.9768ms
+2025-03-29 11:58:41.995 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create city - application/json 24
+2025-03-29 11:58:42.037 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateTransmissionType (TurboProject.APILayer)'
+2025-03-29 11:58:42.056 +04:00 [INF] Route matched with {action = "CreateTransmissionType", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransmissionType(TurboProject.BusinessLayer.Model.DTO.Request.City.CreateCityDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:58:42.147 +04:00 [INF] Executed DbCommand (44ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c]
+        WHERE [c].[CityName] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:58:42.204 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([CityName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:58:42.211 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:58:42.214 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateTransmissionType (TurboProject.APILayer) in 157.6728ms
+2025-03-29 11:58:42.214 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateTransmissionType (TurboProject.APILayer)'
+2025-03-29 11:58:42.215 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create city - 200 null application/json; charset=utf-8 225.8445ms
+2025-03-29 11:58:59.884 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create city - application/json 28
+2025-03-29 11:58:59.906 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateTransmissionType (TurboProject.APILayer)'
+2025-03-29 11:58:59.908 +04:00 [INF] Route matched with {action = "CreateTransmissionType", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransmissionType(TurboProject.BusinessLayer.Model.DTO.Request.City.CreateCityDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:58:59.970 +04:00 [INF] Executed DbCommand (29ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c]
+        WHERE [c].[CityName] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:58:59.988 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([CityName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:58:59.991 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:58:59.993 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateTransmissionType (TurboProject.APILayer) in 83.86ms
+2025-03-29 11:58:59.993 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateTransmissionType (TurboProject.APILayer)'
+2025-03-29 11:58:59.993 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create city - 200 null application/json; charset=utf-8 115.8754ms
+2025-03-29 11:59:17.242 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:44307/api/Admin/DeleteCity/4 - null null
+2025-03-29 11:59:17.255 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteCity (TurboProject.APILayer)'
+2025-03-29 11:59:17.282 +04:00 [INF] Route matched with {action = "DeleteCity", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCity(Int32) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:59:17.349 +04:00 [INF] Executed DbCommand (32ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CityName]
+FROM [Cities] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-03-29 11:59:17.378 +04:00 [INF] Executed DbCommand (23ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Cities]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-03-29 11:59:17.379 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:59:17.381 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.DeleteCity (TurboProject.APILayer) in 98.765ms
+2025-03-29 11:59:17.381 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.DeleteCity (TurboProject.APILayer)'
+2025-03-29 11:59:17.381 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:44307/api/Admin/DeleteCity/4 - 200 null application/json; charset=utf-8 140.899ms
+2025-03-29 11:59:33.124 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create city - application/json 28
+2025-03-29 11:59:33.140 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateTransmissionType (TurboProject.APILayer)'
+2025-03-29 11:59:33.142 +04:00 [INF] Route matched with {action = "CreateTransmissionType", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTransmissionType(TurboProject.BusinessLayer.Model.DTO.Request.City.CreateCityDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 11:59:33.205 +04:00 [INF] Executed DbCommand (28ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c]
+        WHERE [c].[CityName] = @__name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 11:59:33.228 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([CityName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 11:59:33.230 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 11:59:33.232 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateTransmissionType (TurboProject.APILayer) in 90.0274ms
+2025-03-29 11:59:33.232 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateTransmissionType (TurboProject.APILayer)'
+2025-03-29 11:59:33.235 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create city - 200 null application/json; charset=utf-8 126.5095ms
+2025-03-29 12:02:26.972 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Admin/Create engine size - application/json 19
+2025-03-29 12:02:26.991 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateEngineSize (TurboProject.APILayer)'
+2025-03-29 12:02:27.035 +04:00 [INF] Route matched with {action = "CreateEngineSize", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateEngineSize(TurboProject.BusinessLayer.Model.DTO.Request.EngineSize.CreateEngineSizeDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 12:02:27.254 +04:00 [INF] Executed DbCommand (86ms) [Parameters=[@__size_0='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [EngineSizes] AS [e]
+        WHERE [e].[Engine] = @__size_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-29 12:02:27.304 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EngineSizes] ([Engine])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-03-29 12:02:27.309 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 12:02:27.313 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.CreateEngineSize (TurboProject.APILayer) in 277.0077ms
+2025-03-29 12:02:27.313 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.CreateEngineSize (TurboProject.APILayer)'
+2025-03-29 12:02:27.314 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Admin/Create engine size - 200 null application/json; charset=utf-8 363.9475ms
+2025-03-29 12:03:54.420 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:44307/api/Admin/Update engine size - application/json 34
+2025-03-29 12:03:54.446 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.UpdateEngineSize (TurboProject.APILayer)'
+2025-03-29 12:03:54.470 +04:00 [INF] Route matched with {action = "UpdateEngineSize", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateEngineSize(TurboProject.BusinessLayer.Model.DTO.Request.EngineSize.UpdateEngineSizeDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 12:03:54.650 +04:00 [INF] Executed DbCommand (70ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Engine]
+FROM [EngineSizes] AS [e]
+WHERE [e].[Id] = @__p_0
+2025-03-29 12:03:54.695 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [EngineSizes] SET [Engine] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2025-03-29 12:03:54.699 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 12:03:54.720 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.UpdateEngineSize (TurboProject.APILayer) in 249.3762ms
+2025-03-29 12:03:54.720 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.UpdateEngineSize (TurboProject.APILayer)'
+2025-03-29 12:03:54.721 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:44307/api/Admin/Update engine size - 200 null application/json; charset=utf-8 302.7885ms
+2025-03-29 12:05:48.894 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:44307/api/Admin/Update engine size - application/json 34
+2025-03-29 12:05:48.972 +04:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '29.03.2025 8:05:01', Current time (UTC): '29.03.2025 8:05:48'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-29 12:05:49.061 +04:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '29.03.2025 8:05:01', Current time (UTC): '29.03.2025 8:05:48'.
+2025-03-29 12:05:49.071 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-29 12:05:49.078 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-03-29 12:05:49.090 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:44307/api/Admin/Update engine size - 401 null null 203.4852ms
+2025-03-29 12:06:02.503 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Account/Login - application/json 58
+2025-03-29 12:06:02.535 +04:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '29.03.2025 8:05:01', Current time (UTC): '29.03.2025 8:06:02'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-29 12:06:02.541 +04:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '29.03.2025 8:05:01', Current time (UTC): '29.03.2025 8:06:02'.
+2025-03-29 12:06:02.545 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 12:06:02.547 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-03-29 12:06:02.690 +04:00 [INF] Executed DbCommand (29ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-29 12:06:02.865 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-03-29 12:06:02.876 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 12:06:02.881 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 12:06:02.884 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-03-29 12:06:02.899 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-03-29 12:06:02.902 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-03-29 12:06:02.905 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-29 12:06:02.906 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 359.6411ms
+2025-03-29 12:06:02.907 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-03-29 12:06:02.907 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Account/Login - 200 null application/json; charset=utf-8 423.0515ms
+2025-03-29 12:06:18.332 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:44307/api/Admin/Update engine size - application/json 34
+2025-03-29 12:06:18.355 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.UpdateEngineSize (TurboProject.APILayer)'
+2025-03-29 12:06:18.357 +04:00 [INF] Route matched with {action = "UpdateEngineSize", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateEngineSize(TurboProject.BusinessLayer.Model.DTO.Request.EngineSize.UpdateEngineSizeDto) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-03-29 12:06:18.409 +04:00 [INF] Executed DbCommand (30ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Engine]
+FROM [EngineSizes] AS [e]
+WHERE [e].[Id] = @__p_0
+2025-03-29 12:06:18.431 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [EngineSizes] SET [Engine] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2025-03-29 12:06:18.433 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 12:06:18.438 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.UpdateEngineSize (TurboProject.APILayer) in 79.8188ms
+2025-03-29 12:06:18.439 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.UpdateEngineSize (TurboProject.APILayer)'
+2025-03-29 12:06:18.442 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:44307/api/Admin/Update engine size - 200 null application/json; charset=utf-8 112.7404ms
+2025-03-29 12:06:58.510 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/EngineSize/List - null null
+2025-03-29 12:06:58.616 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.EngineSizeController.GetAllSizes (TurboProject.APILayer)'
+2025-03-29 12:06:58.629 +04:00 [INF] Route matched with {action = "GetAllSizes", controller = "EngineSize"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllSizes() on controller TurboProject.APILayer.Controllers.EngineSizeController (TurboProject.APILayer).
+2025-03-29 12:06:58.693 +04:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Engine]
+FROM [EngineSizes] AS [e]
+2025-03-29 12:06:58.718 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.EngineSize.GetEngineSizeDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-29 12:06:58.728 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.EngineSizeController.GetAllSizes (TurboProject.APILayer) in 99.571ms
+2025-03-29 12:06:58.729 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.EngineSizeController.GetAllSizes (TurboProject.APILayer)'
+2025-03-29 12:06:58.729 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/EngineSize/List - 200 null application/json; charset=utf-8 220.9719ms
+2025-03-29 15:27:09.809 +04:00 [INF] Executed DbCommand (22ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 15:27:09.956 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 15:27:09.962 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 15:27:10.252 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 15:27:10.761 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-03-29 15:27:10.829 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-29 15:27:10.830 +04:00 [INF] Hosting environment: Development
+2025-03-29 15:27:10.830 +04:00 [INF] Content root path: C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer
+2025-03-29 15:27:11.764 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 1015.2901ms
+2025-03-29 15:27:12.053 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-03-29 15:27:12.053 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-29 15:27:12.053 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-03-29 15:27:12.068 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 19.733ms
+2025-03-29 15:27:12.072 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 18.5986ms
+2025-03-29 15:27:12.274 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 221.2081ms
+2025-03-29 15:27:12.410 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-03-29 15:27:12.541 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.1756ms
+2025-03-29 15:28:29.962 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/Account/Register - application/json 178
+2025-03-29 15:28:30.163 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Register (TurboProject.APILayer)'
+2025-03-29 15:28:30.197 +04:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(TurboProject.BusinessLayer.Model.DTO.Request.Account.RegisterRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-03-29 15:28:30.374 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-03-29 15:28:47.067 +04:00 [INF] Executing ObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-29 15:28:47.092 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Register (TurboProject.APILayer) in 16890.3678ms
+2025-03-29 15:28:47.093 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Register (TurboProject.APILayer)'
+2025-03-29 15:28:47.111 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/Account/Register - 500 null application/json; charset=utf-8 17156.683ms
+2025-03-29 15:32:43.654 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 15:32:43.712 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 15:32:43.716 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-03-29 15:32:43.880 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 15:32:44.093 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-03-29 15:32:44.147 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-29 15:32:44.148 +04:00 [INF] Hosting environment: Development
+2025-03-29 15:32:44.148 +04:00 [INF] Content root path: C:\Users\gamidismailov\source\repos\Turboaz\TurboProject\TurboProject.APILayer
+2025-03-29 15:32:44.405 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 326.8157ms
+2025-03-29 15:32:44.458 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-03-29 15:32:44.458 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-03-29 15:32:44.465 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-29 15:32:44.473 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 17.4882ms
+2025-03-29 15:32:44.474 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 8.789ms
+2025-03-29 15:32:44.514 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.933ms
+2025-03-29 15:32:44.776 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-03-29 15:32:44.838 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.8015ms
