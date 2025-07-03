@@ -25,25 +25,6 @@ namespace TurboProject.BusinessLayer.Service.Impl
             this.mapper = mapper;
         }
 
-        public async  Task CreateTransmissionType(CreateTransmissionTypeDto createTransmissionTypeDto)
-        {
-
-            if (await unitofWork.transmissionRepository.ExistsAsync(createTransmissionTypeDto.TransmissionName))
-                throw new Exception("Transmission type  with this name already exists");
-            var type = mapper.Map<Transmission>(createTransmissionTypeDto);
-            await unitofWork.transmissionRepository.Create(type);
-            await unitofWork.Commit();
-        }
-
-        public async  Task DeleteTransmissionType(int id)
-        {
-            var type = await unitofWork.transmissionRepository.GetById(id);
-            if (type == null)
-                throw new KeyNotFoundException("Transmission type not found");
-            unitofWork.transmissionRepository.Delete(type);
-            await unitofWork.Commit();
-        }
-
         public async  Task<List<GetTransmissionTypeDto>> GetAllTransmissionTypes()
         {
             var type = await unitofWork.transmissionRepository.GetAll();
@@ -54,6 +35,24 @@ namespace TurboProject.BusinessLayer.Service.Impl
         {
             var type = await unitofWork.transmissionRepository.GetById(id);
             return mapper.Map<GetTransmissionTypeDto>(type);
+        }
+        public async Task CreateTransmissionType(CreateTransmissionTypeDto createTransmissionTypeDto)
+        {
+
+            if (await unitofWork.transmissionRepository.ExistsAsync(createTransmissionTypeDto.Name))
+                throw new Exception("Transmission type  with this name already exists");
+            var type = mapper.Map<Transmission>(createTransmissionTypeDto);
+            await unitofWork.transmissionRepository.Create(type);
+            await unitofWork.Commit();
+        }
+
+        public async Task DeleteTransmissionType(int id)
+        {
+            var type = await unitofWork.transmissionRepository.GetById(id);
+            if (type == null)
+                throw new KeyNotFoundException("Transmission type not found");
+            unitofWork.transmissionRepository.Delete(type);
+            await unitofWork.Commit();
         }
     }
 }

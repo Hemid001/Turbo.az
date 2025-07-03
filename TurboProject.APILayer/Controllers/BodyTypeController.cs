@@ -3,11 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using TurboProject.BusinessLayer.Model.ApiResponse;
 using TurboProject.BusinessLayer.Model.DTO.Request.BodyType;
 using TurboProject.BusinessLayer.Model.DTO.Response.BodyType;
+using TurboProject.BusinessLayer.Service.Impl;
 using TurboProject.BusinessLayer.Service.Interface;
 
 namespace TurboProject.APILayer.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/body-type")]
     [ApiController]
     public class BodyTypeController : ControllerBase
     {
@@ -18,27 +19,14 @@ namespace TurboProject.APILayer.Controllers
             this.bodyTypeService = bodyTypeService;
         }
 
-        [HttpGet("List")]
+        [HttpGet]
         public async Task<IActionResult> GetAllTypes()
         {
             var response = new ApiResponse<List<GetBodyTypeDto>>();
             var types = await bodyTypeService.GetAllTypes();
             return Ok(types);
         }
-        [HttpPost]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> CreateBodyType([FromBody] CreateBodyTypeDto createBodyTypeDto)
-        {
-            var response = new ApiResponse<string>();
-            if (!ModelState.IsValid)
-            {
-                response.Error(ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList());
-                return BadRequest(response);
-            }
-            await bodyTypeService.CreateBodyType(createBodyTypeDto);
-            response.Success("Body type successfully created!");
-            return Ok(response);
-        }
+       
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -52,8 +40,22 @@ namespace TurboProject.APILayer.Controllers
             response.Success(type);
             return Ok(response);
         }
-        [HttpDelete("Delete/{id}")]
+        [Authorize(Roles ="Admin")]
+        [HttpPost]
+        public async Task<IActionResult> CreateBodyType([FromBody] CreateBodyTypeDto createBodyTypeDto)
+        {
+            var response = new ApiResponse<string>();
+            if (!ModelState.IsValid)
+            {
+                response.Error(ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList());
+                return BadRequest(response);
+            }
+            await bodyTypeService.CreateBodyType(createBodyTypeDto);
+            response.Success("Body type successfully created!");
+            return Ok(response);
+        }
         [Authorize(Roles = "Admin")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteBodyType(int id)
         {
             var response = new ApiResponse<string>();
@@ -63,5 +65,6 @@ namespace TurboProject.APILayer.Controllers
 
             return Ok(response);
         }
+
     }
 }

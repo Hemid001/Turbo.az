@@ -12,5 +12,6 @@ namespace TurboProject.DataLayer.Repository.Interface
     {
         Task<List<Car>> GetFilteredCars(GetCarFilteredRequestModel model);
         Task<List<Car>> GetApprovedCars();
+        Task<Car> GetCarByIdWithIncludes(int id);
     }
 }

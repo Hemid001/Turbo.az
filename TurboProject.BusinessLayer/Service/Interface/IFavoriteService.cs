@@ -10,8 +10,8 @@ namespace TurboProject.BusinessLayer.Service.Interface
 {
     public interface IFavoriteService
     {
-        Task<List<GetFavoriteDto>> GetUserFavoritesAsync(int userId);
-        Task AddToFavoritesAsync(int userId, CreateFavoriteDto dto);
-        Task RemoveFromFavoritesAsync(int userId, int carId);
+        Task<List<GetFavoriteDto>> GetUserFavoritesAsync(string userId);
+        Task AddToFavoritesAsync(string userId, CreateFavoriteDto dto);
+        Task RemoveFromFavoritesAsync(string userId, int carId);
     }
 }

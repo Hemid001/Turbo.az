@@ -16,7 +16,7 @@ namespace TurboProject.DataLayer.Repository.Impl
 
         public async  Task<bool> ExistsAsync(string name)
         {
-            return await context.Transmissions.AnyAsync(ft => ft.TransmissionName == name);
+            return await context.Transmissions.AnyAsync(ft => ft.Name == name);
         }
     }
 }

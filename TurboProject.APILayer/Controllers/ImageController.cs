@@ -6,7 +6,7 @@ using TurboProject.BusinessLayer.Service.Interface;
 
 namespace TurboProject.APILayer.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/image")]
     [ApiController]
     public class ImageController : ControllerBase
     {
@@ -27,19 +27,24 @@ namespace TurboProject.APILayer.Controllers
                 return BadRequest(response);
             }
             await imageService.UploadImage(carId, file, isPrimary);
+
+            var imageUrl = $"/images/cars/{carId}/{file.FileName}"; 
+            response.Success(imageUrl);
+
             return Ok(response);
         }
 
         [HttpGet("car/{carId}")]
         public async Task<IActionResult> GetImagesByCar(int carId)
         {
-            var response = new ApiResponse<GetImageDto>();
+            var response = new ApiResponse<List<GetImageDto>>();
             var images = await imageService.GetImagesByCarId(carId);
             if (images == null)
             {
                 response.Error("Images not found");
                 return NotFound(response);
             }
+            response.Success(images);
             return Ok(response);
         }
 
@@ -53,7 +58,8 @@ namespace TurboProject.APILayer.Controllers
                 response.Error("No primary image found");
                 return NotFound(response);
             }
+            response.Success(image);
             return Ok(response);
         }
-    }
+    }   
 }

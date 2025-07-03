@@ -45,7 +45,7 @@ namespace TurboProject.BusinessLayer.Service.Impl
 
         public async Task<GetCarResponseDto> GetCarById(int id)
         {
-            var car = await unitofWork.carRepository.GetById(id);
+            var car = await unitofWork.carRepository.GetCarByIdWithIncludes(id);
             return mapper.Map<GetCarResponseDto>(car);
 
         }

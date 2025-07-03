@@ -18,6 +18,17 @@ namespace TurboProject.BusinessLayer.Service.Impl
             this.mapper = mapper;
         }
 
+        public async Task<List<GetModelResponseDto>> GetAllModels()
+        {
+            var models = await unitofWork.modelRepository.GetAll();
+            return mapper.Map<List<GetModelResponseDto>>(models);
+        }
+
+        public async Task<GetModelResponseDto> GetModelById(int id)
+        {
+            var model = await unitofWork.modelRepository.GetById(id);
+            return mapper.Map<GetModelResponseDto>(model);
+        }
         public async Task CreateModel(CreateModelRequestDto createModelRequestDto)
         {
             var model = mapper.Map<CarsModel>(createModelRequestDto);
@@ -34,19 +45,6 @@ namespace TurboProject.BusinessLayer.Service.Impl
             unitofWork.modelRepository.Delete(model);
             await unitofWork.Commit();
         }
-
-        public async Task<List<GetModelResponseDto>> GetAllModels()
-        {
-            var models = await unitofWork.modelRepository.GetAll();
-            return mapper.Map<List<GetModelResponseDto>>(models);
-        }
-
-        public async Task<GetModelResponseDto> GetModelById(int id)
-        {
-            var model = await unitofWork.modelRepository.GetById(id);
-            return mapper.Map<GetModelResponseDto>(model);
-        }
-
         public async Task UpdateModel(UpdateModelRequestDto updateModelRequestDto)
         {
             var model = await unitofWork.modelRepository.GetById(updateModelRequestDto.Id);

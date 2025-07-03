@@ -8,5 +8,7 @@ namespace TurboProject.DataLayer.Entity
         public string Surname { get; set; }
         public DateTime CreatedDate { get; set; }
         public ICollection<Favorite>? Favorites { get; set; }
+        public bool IsBlocked { get; set; }
+        public ICollection<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();
     }
 }

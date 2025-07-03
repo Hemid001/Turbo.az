@@ -22,7 +22,13 @@ namespace TurboProject.DataLayer
 
             services.AddDbContext<AppDbContext>(op =>
             {
-                op.UseSqlServer(configuration.GetConnectionString("Default"));
+                op.UseSqlServer(
+                configuration.GetConnectionString("Default"),
+                sqlOptions => sqlOptions
+                    .EnableRetryOnFailure(
+                        maxRetryCount: 5,
+                        maxRetryDelay: TimeSpan.FromSeconds(30),
+                        errorNumbersToAdd: null));
             });
 
 
@@ -48,6 +54,8 @@ namespace TurboProject.DataLayer
             services.AddScoped<IPaymentRepository, PaymentRepository>();
             services.AddScoped<IStatusRepository, StatusRepository>();
             services.AddScoped<IFeatureRepository, FeatureRepository>();
+            services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
+
 
 
         }

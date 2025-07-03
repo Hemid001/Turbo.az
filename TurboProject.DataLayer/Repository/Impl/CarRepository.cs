@@ -17,10 +17,22 @@ namespace TurboProject.DataLayer.Repository.Impl
 
         public async Task<List<Car>> GetApprovedCars()
         {
-            return await context.Set<Car>()
-                       .Where(c => c.IsApproved)
-                       .ToListAsync();
-        }        
+            return await context.Cars
+     .Where(c => c.IsApproved)
+     .Include(c => c.Model)
+         .ThenInclude(m => m.Brand)
+     .Include(c => c.BodyType)
+     .Include(c => c.City)
+     .Include(c => c.EngineSize)
+     .Include(c => c.FuelType)
+     .Include(c => c.Transmission)
+     .Include(c => c.Status)
+     .Include(c => c.Favorites)
+     .Include(c => c.Images)
+     .Include(c => c.Features)
+     .ToListAsync();
+
+        }
 
         public async Task<List<Car>> GetFilteredCars(GetCarFilteredRequestModel model)
         {
@@ -35,13 +47,13 @@ namespace TurboProject.DataLayer.Repository.Impl
                 query = query.Where(c => c.Model.Name == model.Model);
 
             if (!string.IsNullOrEmpty(model.FuelType))
-                query = query.Where(c => c.FuelType.FuelTypeName == model.FuelType);
+                query = query.Where(c => c.FuelType.Name == model.FuelType);
 
             if (!string.IsNullOrEmpty(model.Transmission))
-                query = query.Where(c => c.Transmission.TransmissionName == model.Transmission);
+                query = query.Where(c => c.Transmission.Name == model.Transmission);
 
             if (!string.IsNullOrEmpty(model.City))
-                query = query.Where(c => c.City.CityName == model.City);
+                query = query.Where(c => c.City.Name == model.City);
 
             if (!string.IsNullOrEmpty(model.CurrencyType))
                 query = query.Where(c => c.CurrencyType.ToString() == model.CurrencyType);
@@ -67,5 +79,23 @@ namespace TurboProject.DataLayer.Repository.Impl
             return await query.ToListAsync();
 
         }
+
+        public async Task<Car> GetCarByIdWithIncludes(int id)
+        {
+            return await context.Cars
+                .Include(c => c.Model)
+                    .ThenInclude(m => m.Brand)   // если нужна Brand у модели
+                .Include(c => c.EngineSize)
+                .Include(c => c.BodyType)
+                .Include(c => c.FuelType)
+                .Include(c => c.Transmission)
+                .Include(c => c.City)
+                .Include(c => c.Status)
+                .Include(c => c.Favorites)
+                .Include(c => c.Images)
+                .Include(c => c.Features)
+                .FirstOrDefaultAsync(c => c.Id == id);
+        }
+
     }
 }

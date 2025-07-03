@@ -19,7 +19,7 @@ namespace TurboProject.APILayer.Controllers
         {
             this.paymentService = paymentService;
         }
-        [HttpPost("ProcessPayment")]
+        [HttpPost]
         public async Task<IActionResult> ProcessPayment([FromBody] CreatePaymentDto dto)
         {
             var response = new ApiResponse<string>();
@@ -35,7 +35,7 @@ namespace TurboProject.APILayer.Controllers
         }
 
 
-        [HttpGet("UserPayments")]
+        [HttpGet]
         public async Task<IActionResult> GetUserPayments()
         {
             var response = new ApiResponse<List<GetPaymentDto>>();

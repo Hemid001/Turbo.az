@@ -25,7 +25,7 @@ namespace TurboProject.BusinessLayer.Service.Impl
 
         public async  Task CreateStatus(CreateStatusDto dto)
         {
-            var existingStatus = await unitofWork.statusRepository.GetByNameAsync(dto.StatusName);
+            var existingStatus = await unitofWork.statusRepository.GetByNameAsync(dto.Name);
             if (existingStatus != null)
                 throw new InvalidOperationException("Status already exists");
 
@@ -65,7 +65,7 @@ namespace TurboProject.BusinessLayer.Service.Impl
             if (status == null)
                 throw new KeyNotFoundException("Status not found");
 
-            status.StatusName = dto.StatusName;
+            status.Name = dto.Name;
             status.EndTime = DateTime.UtcNow.AddDays(dto.DurationDays);
 
              unitofWork.statusRepository.Update(status);

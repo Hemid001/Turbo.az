@@ -24,6 +24,19 @@ namespace TurboProject.BusinessLayer.Service.Impl
             this.unitofWork = unitofWork;
             this.mapper = mapper;
         }
+
+        public async  Task<List<GetEngineSizeDto>> GetAllEngineSizes()
+        {
+            var size = await unitofWork.engineSizeRepository.GetAll();
+            return mapper.Map<List<GetEngineSizeDto>>(size);
+        }
+
+        public async Task<GetEngineSizeDto> GetEngineSizeById(int id)
+        {
+            var size = await unitofWork.engineSizeRepository.GetById(id);
+            return mapper.Map<GetEngineSizeDto>(size);
+        }
+
         public async Task CreateEngineSize(CreateEngineSizeDto createDto)
         {
             if (await unitofWork.engineSizeRepository.ExistAsync(createDto.Engine))
@@ -41,19 +54,6 @@ namespace TurboProject.BusinessLayer.Service.Impl
             unitofWork.engineSizeRepository.Delete(size);
             await unitofWork.Commit();
         }
-
-        public async  Task<List<GetEngineSizeDto>> GetAllEngineSizes()
-        {
-            var size = await unitofWork.engineSizeRepository.GetAll();
-            return mapper.Map<List<GetEngineSizeDto>>(size);
-        }
-
-        public async Task<GetEngineSizeDto> GetEngineSizeById(int id)
-        {
-            var size = await unitofWork.engineSizeRepository.GetById(id);
-            return mapper.Map<GetEngineSizeDto>(size);
-        }
-
         public async Task UpdateEngineSize(UpdateEngineSizeDto updateDto)
         {
             var size = await unitofWork.engineSizeRepository.GetById(updateDto.Id);

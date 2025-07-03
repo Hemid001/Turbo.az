@@ -10,7 +10,7 @@ using TurboProject.BusinessLayer.Service.Interface;
 
 namespace TurboProject.APILayer.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/model")]
     [ApiController]
     public class ModelController : ControllerBase
     {
@@ -20,27 +20,22 @@ namespace TurboProject.APILayer.Controllers
         {
             this.modelService = modelService;
         }
-        [HttpGet("List")]
+        [HttpGet]
         public async Task<IActionResult> GetAllModels()
         {
             var response = new ApiResponse<List<GetModelResponseDto>>();
             var models = await modelService.GetAllModels();
-            return Ok(response);
-        }
-        [HttpPost]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Create([FromBody] CreateModelRequestDto dto)
-        {
-            var response = new ApiResponse<string>();
-            if (!ModelState.IsValid)
+
+            if (models == null)
             {
-                response.Error(ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList());
+                response.Error("Error while receiving data");
                 return BadRequest(response);
             }
-            await modelService.CreateModel(dto);
-            response.Success("Model successfully created!");
+
+            response.Success(models); 
             return Ok(response);
         }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -54,8 +49,24 @@ namespace TurboProject.APILayer.Controllers
             response.Success(model);
             return Ok(response);
         }
-        [HttpPut("Update")]
+
         [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] CreateModelRequestDto dto)
+        {
+            var response = new ApiResponse<string>();
+            if (!ModelState.IsValid)
+            {
+                response.Error(ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList());
+                return BadRequest(response);
+            }
+            await modelService.CreateModel(dto);
+            response.Success("Model successfully created!");
+            return Ok(response);
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPut]
         public async Task<IActionResult> UpdateModel([FromBody] UpdateModelRequestDto dto)
         {
             var response = new ApiResponse<string>();
@@ -78,9 +89,10 @@ namespace TurboProject.APILayer.Controllers
                 return NotFound(response);
             }
         }
-        [HttpDelete("Delete/{id}")]
-        [Authorize(Roles ="Admin")]
-        public async Task<IActionResult> DeleteCar(int id)
+
+        [Authorize(Roles = "Admin")]
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteModel(int id)
         {
             var response = new ApiResponse<string>();
 

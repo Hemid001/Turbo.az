@@ -8,6 +8,6 @@ namespace TurboProject.BusinessLayer.Model.DTO.Request.City
 {
     public class CreateCityDto
     {
-        public string CityName { get; set; }
+        public string Name { get; set; }
     }
 }

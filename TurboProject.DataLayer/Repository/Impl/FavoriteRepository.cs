@@ -14,19 +14,19 @@ namespace TurboProject.DataLayer.Repository.Impl
             this.context = context;
         }
 
-        public async Task<bool> ExistsAsync(int userId, int carId)
+        public async Task<bool> ExistsAsync(string userId, int carId)
         {
             return await context.Favorites.AnyAsync(f => f.UserId == userId && f.CarId == carId);
         }
 
-        public async Task <Favorite> GetByUserAndCar(int userId, int carId)
+        public async Task <Favorite> GetByUserAndCar(string userId, int carId)
         {
             return await context.Favorites
                 .FirstOrDefaultAsync(f => f.UserId == userId && f.CarId == carId);
 
         }
 
-        public async Task<List<Favorite>> GetUserFavorites(int userId)
+        public async Task<List<Favorite>> GetUserFavorites(string userId)
         {
             return await context.Favorites
                .Where(f => f.UserId == userId)

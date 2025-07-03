@@ -8,7 +8,7 @@ namespace TurboProject.BusinessLayer.Model.DTO.Request.Status
 {
     public class CreateStatusDto
     {
-        public string StatusName { get; set; }
+        public string Name { get; set; }
         public int DurationDays { get; set; }
         public decimal Price { get; set; }
     }

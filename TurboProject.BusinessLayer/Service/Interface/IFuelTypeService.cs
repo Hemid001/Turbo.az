@@ -14,5 +14,6 @@ namespace TurboProject.BusinessLayer.Service.Interface
         Task<GetFuelTypeDto> GetFuelTypeById(int id);
         Task CreateFuelType(CreateFuelTypeDto createFuelTypeDto);
         Task DeleteFuelType(int id);
+
     }
 }

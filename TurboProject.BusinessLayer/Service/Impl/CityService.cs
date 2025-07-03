@@ -24,24 +24,6 @@ namespace TurboProject.BusinessLayer.Service.Impl
             this.unitofWork = unitofWork;
             this.mapper = mapper;
         }
-        public async Task CreateCity(CreateCityDto createCityDto)
-        {
-
-            if (await unitofWork.cityRepository.ExistsAsync(createCityDto.CityName))
-                throw new Exception("City  already exists");
-            var city = mapper.Map<City>(createCityDto);
-            await unitofWork.cityRepository.Create(city);
-            await unitofWork.Commit();
-        }
-
-        public  async Task DeleteCity(int id)
-        {
-            var city = await unitofWork.cityRepository.GetById(id);
-            if (city == null)
-                throw new KeyNotFoundException("City not found");
-            unitofWork.cityRepository.Delete(city);
-            await unitofWork.Commit();
-        }
 
         public async  Task<List<GetCityDto>> GetAllCities()
         {
@@ -53,6 +35,24 @@ namespace TurboProject.BusinessLayer.Service.Impl
         {
             var city = await unitofWork.cityRepository.GetById(id);
             return mapper.Map<GetCityDto>(city);
+        }
+        public async Task CreateCity(CreateCityDto createCityDto)
+        {
+
+            if (await unitofWork.cityRepository.ExistsAsync(createCityDto.Name))
+                throw new Exception("City  already exists");
+            var city = mapper.Map<City>(createCityDto);
+            await unitofWork.cityRepository.Create(city);
+            await unitofWork.Commit();
+        }
+
+        public async Task DeleteCity(int id)
+        {
+            var city = await unitofWork.cityRepository.GetById(id);
+            if (city == null)
+                throw new KeyNotFoundException("City not found");
+            unitofWork.cityRepository.Delete(city);
+            await unitofWork.Commit();
         }
     }
 }

@@ -8,6 +8,6 @@ namespace TurboProject.BusinessLayer.Model.DTO.Request.BodyType
 {
     public class CreateBodyTypeDto
     {
-        public string BodyTypeName { get; set; }
+        public string Name { get; set; }
     }
 }

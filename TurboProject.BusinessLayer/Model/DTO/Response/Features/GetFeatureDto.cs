@@ -9,7 +9,7 @@ namespace TurboProject.BusinessLayer.Model.DTO.Response.Features
 {
     public class GetFeatureDto:BaseEntity
     {
-        public string FeatureName { get; set; }
+        public string Name { get; set; }
         public int CarId {  get; set; }
     }
 }

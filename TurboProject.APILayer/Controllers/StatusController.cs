@@ -20,7 +20,7 @@ namespace TurboProject.APILayer.Controllers
             this.statusService = statusService;
         }
 
-        [HttpGet("List")]
+        [HttpGet]
         public async Task<IActionResult> GetAllStatuses()
         {
             var response = new ApiResponse<List<GetStatusDto>>();
@@ -43,6 +43,7 @@ namespace TurboProject.APILayer.Controllers
             return Ok(response);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> CreateStatus([FromBody] CreateStatusDto dto)
         {
@@ -59,7 +60,8 @@ namespace TurboProject.APILayer.Controllers
             return Ok(response);
         }
 
-        [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
+        [HttpPatch("{id}")]
         public async Task<IActionResult> UpdateStatus(int id, [FromBody] UpdateStatusDto dto)
         {
             var response = new ApiResponse<string>();
@@ -75,6 +77,7 @@ namespace TurboProject.APILayer.Controllers
             return Ok(response);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<ActionResult<ApiResponse<string>>> DeleteStatus(int id)
         {

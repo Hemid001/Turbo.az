@@ -27,6 +27,17 @@ namespace TurboProject.BusinessLayer.Service.Impl
             this.mapper = mapper;
         }
 
+        public async Task<List<GetBrandDto>> GetAllBrands()
+        {
+            var brand = await unitofWork.brandRepository.GetAll();
+            return mapper.Map<List<GetBrandDto>>(brand);
+        }
+
+        public async Task<GetBrandDto> GetBrandById(int id)
+        {
+            var brand = await unitofWork.brandRepository.GetById(id);
+            return mapper.Map<GetBrandDto>(brand);
+        }
         public async Task CreateBrand(CreateBrandDto createBrandDto)
         {
             if (await unitofWork.brandRepository.ExistAsync(createBrandDto.Name))
@@ -44,19 +55,6 @@ namespace TurboProject.BusinessLayer.Service.Impl
             unitofWork.brandRepository.Delete(brand);
             await unitofWork.Commit();
         }
-
-        public async Task<List<GetBrandDto>> GetAllBrands()
-        {
-            var brand = await unitofWork.brandRepository.GetAll();
-            return mapper.Map<List<GetBrandDto>>(brand);
-        }
-
-        public async Task<GetBrandDto> GetBrandById(int id)
-        {
-            var brand = await unitofWork.brandRepository.GetById(id);
-            return mapper.Map<GetBrandDto>(brand);
-        }
-
         public async Task UpdateBrand(UpdateBrandDto updateBrandDto)
         {
             var brand = await unitofWork.brandRepository.GetById(updateBrandDto.Id);

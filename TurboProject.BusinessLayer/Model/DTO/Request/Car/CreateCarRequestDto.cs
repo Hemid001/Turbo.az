@@ -14,7 +14,7 @@ namespace TurboProject.BusinessLayer.Model.DTO.Request.Car
         public int EngineSizeId { get; set; }
         public int BodyTypeId { get; set; }
         public int FuelTypeId { get; set; }
-        public int TransimissionId { get; set; }
+        public int TransmissionId { get; set; }
         public int CityId { get; set; }
         public int StatusId { get; set; }
         public int Year { get; set; }

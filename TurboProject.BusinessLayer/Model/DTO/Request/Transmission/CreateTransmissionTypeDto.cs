@@ -8,6 +8,6 @@ namespace TurboProject.BusinessLayer.Model.DTO.Request.Transmission
 {
     public class CreateTransmissionTypeDto
     {
-        public string TransmissionName { get; set; }
+        public string Name { get; set; }
     }
 }

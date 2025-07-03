@@ -10,7 +10,7 @@ using TurboProject.BusinessLayer.Service.Interface;
 
 namespace TurboProject.APILayer.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/car")]
     [ApiController]
     public class CarController : ControllerBase
     {
@@ -21,7 +21,7 @@ namespace TurboProject.APILayer.Controllers
             this.carService = carService;
         }
 
-        [HttpPost("Create")]
+        [HttpPost]
         [Authorize]
         public async Task<IActionResult> CreateCar([FromBody] CreateCarRequestDto dto)
         {
@@ -44,7 +44,7 @@ namespace TurboProject.APILayer.Controllers
             return Ok(response);
         }
 
-        [HttpPut("Update")]
+        [HttpPut]
         [Authorize]
         public async Task<IActionResult> UpdateCar([FromBody] UpdateCarRequestDto dto)
         {
@@ -69,7 +69,7 @@ namespace TurboProject.APILayer.Controllers
             }
         }
 
-        [HttpDelete("Delete/{id}")]
+        [HttpDelete("{id}")]
         [Authorize]
         public async Task<IActionResult> DeleteCar(int id)
         {
@@ -81,7 +81,7 @@ namespace TurboProject.APILayer.Controllers
             return Ok(response);
         }
 
-        [HttpGet("Get/{id}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetCar(int id)
         {
             var response = new ApiResponse<GetCarResponseDto>();
@@ -97,7 +97,7 @@ namespace TurboProject.APILayer.Controllers
             return Ok(response);
         }
 
-        [HttpGet("List")]
+        [HttpGet]
         public async Task<IActionResult> GetAllCars()
         {
             var response = new ApiResponse<List<GetCarResponseDto>>();
@@ -108,7 +108,7 @@ namespace TurboProject.APILayer.Controllers
             return Ok(response);
         }
 
-        [HttpGet("Filter")]
+        [HttpGet("filter")]
         public async Task<IActionResult> GetFilteredCars([FromQuery] GetCarFilteredRequestDto filterDto)
         {
             var response = new ApiResponse<List<GetCarResponseDto>>();

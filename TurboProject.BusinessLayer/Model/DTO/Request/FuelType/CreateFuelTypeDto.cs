@@ -8,6 +8,6 @@ namespace TurboProject.BusinessLayer.Model.DTO.Request.FuelType
 {
     public class CreateFuelTypeDto
     {
-        public string FuelTypeName { get; set; }
+        public string Name { get; set; }
     }
 }

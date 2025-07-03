@@ -14,7 +14,7 @@ namespace TurboProject.DataLayer.Entity
         public BodyType BodyType { get; set; }
         public int FuelTypeId { get; set; }
         public FuelType FuelType { get; set; }
-        public int TransimissionId { get; set; }
+        public int TransmissionId { get; set; }
         public Transmission  Transmission { get; set; }
         public int CityId { get; set; }
         public City City { get; set; }

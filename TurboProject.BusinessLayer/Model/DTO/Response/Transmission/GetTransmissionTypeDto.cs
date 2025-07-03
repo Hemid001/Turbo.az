@@ -9,6 +9,6 @@ namespace TurboProject.BusinessLayer.Model.DTO.Response.Transmission
 {
     public class GetTransmissionTypeDto:BaseEntity
     {
-        public string TransmissionName { get; set; }
+        public string Name { get; set; }
     }
 }

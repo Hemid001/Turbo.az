@@ -21,6 +21,7 @@ namespace TurboProject.DataLayer.Context
         public DbSet<Status> Statuses { get; set; }
         public DbSet<Transmission> Transmissions { get; set; }
         public DbSet<Favorite> Favorites { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -45,17 +46,40 @@ namespace TurboProject.DataLayer.Context
 
             modelBuilder.Entity<Brand>()
                 .HasIndex(b => b.Name)
-                .IsUnique(); 
+                .IsUnique();
 
             modelBuilder.Entity<CarsModel>()
                 .HasIndex(m => m.Name)
-                .IsUnique(); 
+                .IsUnique();
 
             modelBuilder.Entity<CarsModel>()
                 .HasOne(m => m.Brand)
                 .WithMany(b => b.Models)
                 .HasForeignKey(m => m.BrandId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<RefreshToken>()
+               .HasOne(rt => rt.User)
+               .WithMany(u => u.RefreshTokens)
+               .HasForeignKey(rt => rt.UserId)
+               .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Favorite>()
+           .HasOne(f => f.User)
+           .WithMany(u => u.Favorites) 
+           .HasForeignKey(f => f.UserId)
+           .OnDelete(DeleteBehavior.Restrict); 
+
+
+            modelBuilder.Entity<RefreshToken>(entity =>
+            {
+                entity.Property(rt => rt.RevokedByIp)
+                      .IsRequired(false);
+
+                entity.Property(rt => rt.ReplacedByToken)
+                      .IsRequired(false);
+            });
+
         }
 
     }

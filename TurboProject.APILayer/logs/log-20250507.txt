@@ -1,0 +1,26 @@
+2025-05-07 12:18:07.538 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-05-07 12:18:07.593 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-05-07 12:18:07.597 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-05-07 12:18:07.815 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-07 12:18:08.342 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-05-07 12:18:08.438 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-07 12:18:08.441 +04:00 [INF] Hosting environment: Development
+2025-05-07 12:18:08.441 +04:00 [INF] Content root path: C:\Mac\Home\Desktop\Turbo.az\TurboProject.APILayer
+2025-05-07 12:18:09.037 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 727.982ms
+2025-05-07 12:18:09.316 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-07 12:18:09.317 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-05-07 12:18:09.323 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-05-07 12:18:09.334 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 45.5485ms
+2025-05-07 12:18:09.350 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 21.4498ms
+2025-05-07 12:18:09.559 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 234.4317ms
+2025-05-07 12:18:09.670 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-05-07 12:18:09.775 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.1421ms

@@ -9,6 +9,6 @@ namespace TurboProject.BusinessLayer.Model.DTO.Response.BodyType
 {
     public class GetBodyTypeDto:BaseEntity
     {
-        public string BodyTypeName { get; set; }
+        public string Name { get; set; }
     }
 }

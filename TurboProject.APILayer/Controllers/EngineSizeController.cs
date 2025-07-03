@@ -11,7 +11,7 @@ using TurboProject.BusinessLayer.Service.Interface;
 
 namespace TurboProject.APILayer.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/engine-size")]
     [ApiController]
     public class EngineSizeController : ControllerBase
     {
@@ -22,27 +22,14 @@ namespace TurboProject.APILayer.Controllers
             this.engineSizeService = engineSizeService;
         }
 
-        [HttpGet("List")]
+        [HttpGet]
         public async Task<IActionResult> GetAllSizes()
         {
             var response = new ApiResponse<List<GetEngineSizeDto>>();
             var size = await engineSizeService.GetAllEngineSizes();
             return Ok(size);
         }
-        [HttpPost]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> CreateEngineSize([FromBody] CreateEngineSizeDto createEngineSizeDto)
-        {
-            var response = new ApiResponse<string>();
-            if (!ModelState.IsValid)
-            {
-                response.Error(ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList());
-                return BadRequest(response);
-            }
-            await engineSizeService.CreateEngineSize(createEngineSizeDto);
-            response.Success("Engine size successfully created!");
-            return Ok(response);
-        }
+       
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -56,8 +43,23 @@ namespace TurboProject.APILayer.Controllers
             response.Success(size);
             return Ok(response);
         }
-        [HttpPut("Update")]
         [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public async Task<IActionResult> CreateEngineSize([FromBody] CreateEngineSizeDto createEngineSizeDto)
+        {
+            var response = new ApiResponse<string>();
+            if (!ModelState.IsValid)
+            {
+                response.Error(ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList());
+                return BadRequest(response);
+            }
+            await engineSizeService.CreateEngineSize(createEngineSizeDto);
+            response.Success("Engine size successfully created!");
+            return Ok(response);
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPut]
         public async Task<IActionResult> UpdateEngineSize([FromBody] UpdateEngineSizeDto updateEngineSizeDto)
         {
             var response = new ApiResponse<string>();
@@ -80,8 +82,9 @@ namespace TurboProject.APILayer.Controllers
                 return NotFound(response);
             }
         }
-        [HttpDelete("Delete/{id}")]
+
         [Authorize(Roles = "Admin")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEngineSize(int id)
         {
             var response = new ApiResponse<string>();

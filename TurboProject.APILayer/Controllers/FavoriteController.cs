@@ -10,7 +10,7 @@ using TurboProject.BusinessLayer.Service.Interface;
 
 namespace TurboProject.APILayer.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/favorite")]
     [ApiController]
     [Authorize]
     public class FavoriteController : ControllerBase
@@ -27,7 +27,8 @@ namespace TurboProject.APILayer.Controllers
         {
             var response = new ApiResponse<List<GetFavoriteDto>>();
 
-            int userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+            string userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
             var favorites = await favoriteService.GetUserFavoritesAsync(userId);
 
             if (favorites == null || favorites.Count == 0)
@@ -45,13 +46,19 @@ namespace TurboProject.APILayer.Controllers
         public async Task<ActionResult<ApiResponse<string>>> AddToFavorites([FromBody] CreateFavoriteDto dto)
         {
             var response = new ApiResponse<string>();
+         
             if (!ModelState.IsValid)
             {
                 response.Error(ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList());
                 return BadRequest(response);
             }
-            int userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
-             await favoriteService.AddToFavoritesAsync(userId, dto);
+            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                response.Error("User not authenticated");
+                return Unauthorized(response);
+            }
+            await favoriteService.AddToFavoritesAsync(userId, dto);
 
             response.Success("Car added to favorites.");
             return Ok(response);
@@ -63,13 +70,14 @@ namespace TurboProject.APILayer.Controllers
         {
             var response = new ApiResponse<string>();
 
-            if (!int.TryParse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value, out int userId))
+            string userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
             {
                 response.Error("Invalid user identifier.");
                 return Unauthorized(response);
             }
 
-             await favoriteService.RemoveFromFavoritesAsync(userId, carId);     
+            await favoriteService.RemoveFromFavoritesAsync(userId, carId);     
 
             response.Success("Car removed from favorites.");
             return Ok(response);

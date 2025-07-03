@@ -1,0 +1,548 @@
+2025-04-30 10:20:47.818 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 10:20:47.889 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 10:20:47.893 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 10:20:48.163 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 10:20:48.883 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-04-30 10:20:49.205 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 10:20:49.211 +04:00 [INF] Hosting environment: Development
+2025-04-30 10:20:49.211 +04:00 [INF] Content root path: C:\Mac\Home\Desktop\Turbo.az\TurboProject.APILayer
+2025-04-30 10:20:51.423 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/swagger-ui-bundle.js - null null
+2025-04-30 10:20:51.425 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.css - null null
+2025-04-30 10:20:51.305 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 2320.7669ms
+2025-04-30 10:20:51.423 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/swagger-ui.css - null null
+2025-04-30 10:20:51.536 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-30 10:20:51.546 +04:00 [INF] The file /swagger-ui-bundle.js was not modified
+2025-04-30 10:20:51.548 +04:00 [INF] The file /index.css was not modified
+2025-04-30 10:20:51.555 +04:00 [INF] The file /swagger-ui.css was not modified
+2025-04-30 10:20:51.555 +04:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2025-04-30 10:20:51.561 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.css - 304 null text/css 139.2416ms
+2025-04-30 10:20:51.565 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/swagger-ui-bundle.js - 304 null text/javascript 222.7563ms
+2025-04-30 10:20:51.566 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 30.5466ms
+2025-04-30 10:20:51.566 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/swagger-ui.css - 304 null text/css 144.8723ms
+2025-04-30 10:20:51.580 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 10:20:51.580 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-04-30 10:20:51.580 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-04-30 10:20:51.816 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 235.9717ms
+2025-04-30 10:20:51.819 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 237.6636ms
+2025-04-30 10:20:54.389 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 2795.9347ms
+2025-04-30 10:20:54.894 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-04-30 10:20:54.941 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/favicon-32x32.png - null null
+2025-04-30 10:20:54.957 +04:00 [INF] The file /favicon-32x32.png was not modified
+2025-04-30 10:20:54.993 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/favicon-32x32.png - 304 null image/png 50.0728ms
+2025-04-30 10:20:55.285 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 405.2971ms
+2025-04-30 10:22:10.917 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 61
+2025-04-30 10:22:11.324 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 10:22:11.368 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 10:22:11.679 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 10:22:11.703 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 10:22:11.755 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 362.0529ms
+2025-04-30 10:22:11.760 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 10:22:11.819 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 908.3131ms
+2025-04-30 10:22:53.572 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 10:22:53.746 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 10:22:53.930 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 10:22:54.284 +04:00 [INF] Executed DbCommand (51ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 10:22:55.264 +04:00 [INF] Executed DbCommand (86ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-04-30 10:22:55.456 +04:00 [INF] Executed DbCommand (42ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:22:55.502 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 10:22:55.550 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-30 10:22:55.642 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-04-30 10:22:55.659 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:22:55.913 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 10:22:55.930 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 1977.924ms
+2025-04-30 10:22:55.932 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 10:22:55.942 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 200 null application/json; charset=utf-8 2392.5395ms
+2025-04-30 10:23:14.509 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/admin/users - null null
+2025-04-30 10:23:14.629 +04:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(String inputString, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-04-30 10:23:15.060 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-04-30 10:23:15.135 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-04-30 10:23:15.165 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-04-30 10:23:15.191 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/admin/users - 401 null null 695.3308ms
+2025-04-30 10:23:28.468 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 10:23:28.510 +04:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(String inputString, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-04-30 10:23:28.517 +04:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-04-30 10:23:28.524 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 10:23:28.525 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 10:23:28.591 +04:00 [INF] Executed DbCommand (23ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 10:23:28.685 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-04-30 10:23:28.696 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:23:28.874 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 10:23:28.889 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-30 10:23:28.940 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-04-30 10:23:28.945 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:23:28.954 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 10:23:28.960 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 434.16ms
+2025-04-30 10:23:28.961 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 10:23:28.963 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 200 null application/json; charset=utf-8 534.1647ms
+2025-04-30 10:23:53.900 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/admin/users - null null
+2025-04-30 10:23:54.038 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllUsers (TurboProject.APILayer)'
+2025-04-30 10:23:54.067 +04:00 [INF] Route matched with {action = "GetAllUsers", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-04-30 10:23:54.258 +04:00 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2025-04-30 10:23:54.297 +04:00 [INF] Executed DbCommand (19ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:23:54.364 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:23:54.376 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.User.GetUserDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-30 10:23:54.495 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.GetAllUsers (TurboProject.APILayer) in 427.0445ms
+2025-04-30 10:23:54.497 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllUsers (TurboProject.APILayer)'
+2025-04-30 10:23:54.526 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/admin/users - 200 null application/json; charset=utf-8 632.9371ms
+2025-04-30 10:26:42.306 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/register - application/json 170
+2025-04-30 10:26:42.337 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Register (TurboProject.APILayer)'
+2025-04-30 10:26:42.391 +04:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(TurboProject.BusinessLayer.Model.DTO.Request.Account.RegisterRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 10:26:42.547 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 10:26:45.563 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-30 10:26:45.579 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Register (TurboProject.APILayer) in 3187.2957ms
+2025-04-30 10:26:45.580 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Register (TurboProject.APILayer)'
+2025-04-30 10:26:45.582 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/register - 200 null application/json; charset=utf-8 3285.579ms
+2025-04-30 10:30:31.375 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 10:30:31.416 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 10:30:31.429 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 10:30:31.726 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 10:30:31.879 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-04-30 10:30:31.889 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:30:31.896 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 10:30:31.902 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-04-30 10:30:31.925 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-04-30 10:30:31.930 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:30:31.943 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 10:30:31.956 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 526.7015ms
+2025-04-30 10:30:31.957 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 10:30:31.960 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 200 null application/json; charset=utf-8 604.8142ms
+2025-04-30 10:30:47.519 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/admin/users - null null
+2025-04-30 10:30:47.562 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllUsers (TurboProject.APILayer)'
+2025-04-30 10:30:47.563 +04:00 [INF] Route matched with {action = "GetAllUsers", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-04-30 10:30:47.608 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2025-04-30 10:30:47.620 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:30:47.624 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:30:47.625 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.User.GetUserDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-30 10:30:47.629 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.GetAllUsers (TurboProject.APILayer) in 65.2352ms
+2025-04-30 10:30:47.629 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllUsers (TurboProject.APILayer)'
+2025-04-30 10:30:47.630 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/admin/users - 200 null application/json; charset=utf-8 117.234ms
+2025-04-30 10:31:12.896 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/admin/users/56e76413-0791-4f8a-8783-63dc4c34af10/block - null 0
+2025-04-30 10:31:13.002 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.BlockUser (TurboProject.APILayer)'
+2025-04-30 10:31:13.028 +04:00 [INF] Route matched with {action = "BlockUser", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BlockUser(System.String) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-04-30 10:31:13.179 +04:00 [INF] Executed DbCommand (46ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-04-30 10:31:13.228 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-04-30 10:31:13.433 +04:00 [INF] Executed DbCommand (75ms) [Parameters=[@p17='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p18='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 4000), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [CreatedDate] = @p2, [Email] = @p3, [EmailConfirmed] = @p4, [LockoutEnabled] = @p5, [LockoutEnd] = @p6, [Name] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [Surname] = @p14, [TwoFactorEnabled] = @p15, [UserName] = @p16
+OUTPUT 1
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+2025-04-30 10:31:13.467 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-30 10:31:13.471 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.BlockUser (TurboProject.APILayer) in 443.328ms
+2025-04-30 10:31:13.472 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.BlockUser (TurboProject.APILayer)'
+2025-04-30 10:31:13.474 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/admin/users/56e76413-0791-4f8a-8783-63dc4c34af10/block - 200 null application/json; charset=utf-8 581.2642ms
+2025-04-30 10:31:25.079 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/admin/users - null null
+2025-04-30 10:31:25.092 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllUsers (TurboProject.APILayer)'
+2025-04-30 10:31:25.093 +04:00 [INF] Route matched with {action = "GetAllUsers", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-04-30 10:31:25.133 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2025-04-30 10:31:25.148 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:31:25.154 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-04-30 10:31:25.156 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.User.GetUserDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-30 10:31:25.159 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.GetAllUsers (TurboProject.APILayer) in 65.3109ms
+2025-04-30 10:31:25.159 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.GetAllUsers (TurboProject.APILayer)'
+2025-04-30 10:31:25.160 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/admin/users - 200 null application/json; charset=utf-8 84.2652ms
+2025-04-30 12:25:48.477 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:25:48.520 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:25:48.523 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:25:48.673 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:25:48.960 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-04-30 12:25:49.034 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:25:49.037 +04:00 [INF] Hosting environment: Development
+2025-04-30 12:25:49.038 +04:00 [INF] Content root path: C:\Mac\Home\Desktop\Turbo.az\TurboProject.APILayer
+2025-04-30 12:25:49.430 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 479.4862ms
+2025-04-30 12:25:49.544 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-04-30 12:25:49.549 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 4.873ms
+2025-04-30 12:25:49.574 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:25:49.581 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 6.0343ms
+2025-04-30 12:25:49.582 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-04-30 12:25:49.673 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 91.1543ms
+2025-04-30 12:25:49.882 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-04-30 12:25:49.927 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.8808ms
+2025-04-30 12:26:11.810 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 12:26:11.977 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:26:12.011 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:26:12.150 +04:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:26:12.170 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 12:26:12.182 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 167.4548ms
+2025-04-30 12:26:12.182 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:26:12.189 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 381.322ms
+2025-04-30 12:26:31.195 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 12:26:31.210 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:26:31.211 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:26:31.244 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:26:31.248 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 12:26:31.249 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 37.7634ms
+2025-04-30 12:26:31.250 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:26:31.253 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 61.7277ms
+2025-04-30 12:26:52.243 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 12:26:52.319 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:26:52.325 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:26:52.377 +04:00 [INF] Executed DbCommand (18ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:26:52.383 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 12:26:52.385 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 58.8957ms
+2025-04-30 12:26:52.385 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:26:52.387 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 163.441ms
+2025-04-30 12:29:33.492 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 12:29:33.502 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:29:33.505 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:29:33.597 +04:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:29:33.600 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 12:29:33.601 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 95.8164ms
+2025-04-30 12:29:33.602 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:29:33.604 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 114.3505ms
+2025-04-30 12:30:39.016 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:30:39.053 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:30:39.057 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:30:39.202 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:30:39.450 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-04-30 12:30:39.535 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:30:39.537 +04:00 [INF] Hosting environment: Development
+2025-04-30 12:30:39.537 +04:00 [INF] Content root path: C:\Mac\Home\Desktop\Turbo.az\TurboProject.APILayer
+2025-04-30 12:30:39.758 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 314.1542ms
+2025-04-30 12:30:39.824 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-04-30 12:30:39.847 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-04-30 12:30:39.857 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:30:39.859 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 35.3501ms
+2025-04-30 12:30:39.879 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 7.1755ms
+2025-04-30 12:30:39.922 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.1709ms
+2025-04-30 12:30:40.017 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-04-30 12:30:40.099 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.1719ms
+2025-04-30 12:30:57.196 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 12:30:57.547 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:30:57.580 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:30:57.756 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:30:57.779 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 12:30:57.793 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 209.1133ms
+2025-04-30 12:30:57.795 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:30:57.809 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 618.7767ms
+2025-04-30 12:31:58.030 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 12:31:58.047 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:31:58.050 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:31:58.083 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:31:58.089 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 12:31:58.090 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 40.3663ms
+2025-04-30 12:31:58.091 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:31:58.092 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 65.9795ms
+2025-04-30 12:32:26.659 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 12:32:26.689 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:32:26.690 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:32:26.728 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:32:26.734 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 12:32:26.736 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 45.5635ms
+2025-04-30 12:32:26.737 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:32:26.738 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 95.6525ms
+2025-04-30 12:34:30.331 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:34:30.376 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:34:30.379 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:34:30.563 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:34:30.860 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-04-30 12:34:30.927 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:34:30.928 +04:00 [INF] Hosting environment: Development
+2025-04-30 12:34:30.928 +04:00 [INF] Content root path: C:\Mac\Home\Desktop\Turbo.az\TurboProject.APILayer
+2025-04-30 12:34:31.265 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 414.8144ms
+2025-04-30 12:34:31.523 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-04-30 12:34:31.551 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-04-30 12:34:31.553 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:34:31.562 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 39.8557ms
+2025-04-30 12:34:31.588 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 19.9662ms
+2025-04-30 12:34:31.673 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.1858ms
+2025-04-30 12:34:31.863 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-04-30 12:34:32.057 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 194.9751ms
+2025-04-30 12:35:08.225 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 61
+2025-04-30 12:35:08.475 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:35:08.508 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:35:08.704 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:35:08.712 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 12:35:08.724 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 211.6232ms
+2025-04-30 12:35:08.724 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:35:08.731 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 508.8033ms
+2025-04-30 12:35:28.807 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 61
+2025-04-30 12:35:28.840 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:35:28.842 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:35:39.379 +04:00 [INF] Executed DbCommand (93ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:36:18.715 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 12:36:22.665 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 53815.055ms
+2025-04-30 12:36:22.676 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:36:22.689 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 53887.5802ms
+2025-04-30 12:48:20.828 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:48:20.870 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:48:20.875 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:48:21.055 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:48:21.286 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-04-30 12:48:21.348 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:48:21.349 +04:00 [INF] Hosting environment: Development
+2025-04-30 12:48:21.349 +04:00 [INF] Content root path: C:\Mac\Home\Desktop\Turbo.az\TurboProject.APILayer
+2025-04-30 12:48:21.664 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 384.4507ms
+2025-04-30 12:48:21.813 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-04-30 12:48:21.813 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:48:21.819 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 6.6523ms
+2025-04-30 12:48:21.821 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 6.0982ms
+2025-04-30 12:48:21.868 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-04-30 12:48:21.911 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.4254ms
+2025-04-30 12:48:22.169 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-04-30 12:48:22.376 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 209.8818ms
+2025-04-30 12:48:43.332 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 12:48:43.509 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:48:43.548 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:48:49.285 +04:00 [INF] Executed DbCommand (23ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:48:59.178 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 12:48:59.202 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 15650.0836ms
+2025-04-30 12:48:59.203 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:48:59.234 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 15906.3114ms
+2025-04-30 12:49:09.600 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 12:49:09.696 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:49:09.699 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:49:16.238 +04:00 [INF] Executed DbCommand (30ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:52:57.506 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:52:57.564 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:52:57.568 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-04-30 12:52:57.755 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:52:58.034 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-04-30 12:52:58.094 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:52:58.097 +04:00 [INF] Hosting environment: Development
+2025-04-30 12:52:58.097 +04:00 [INF] Content root path: C:\Mac\Home\Desktop\Turbo.az\TurboProject.APILayer
+2025-04-30 12:52:58.429 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 393.058ms
+2025-04-30 12:52:58.639 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-04-30 12:52:58.648 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:52:58.664 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-04-30 12:52:58.669 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 29.4795ms
+2025-04-30 12:52:58.675 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 32.8324ms
+2025-04-30 12:52:58.763 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.4292ms
+2025-04-30 12:52:58.920 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-04-30 12:52:58.973 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.1015ms
+2025-04-30 12:53:19.691 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 12:53:19.989 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:53:20.026 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:53:24.117 +04:00 [INF] Executed DbCommand (33ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-04-30 12:53:29.973 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-30 12:53:31.919 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 11886.3726ms
+2025-04-30 12:53:31.923 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:53:33.092 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 401 null application/json; charset=utf-8 13407.4145ms
+2025-04-30 12:53:39.170 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-04-30 12:53:42.596 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-04-30 12:53:42.600 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-04-30 12:53:49.566 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0

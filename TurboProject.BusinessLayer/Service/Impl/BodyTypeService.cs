@@ -17,10 +17,20 @@ namespace TurboProject.BusinessLayer.Service.Impl
             this.unitofWork = unitofWork;
             this.mapper = mapper;
         }
+        public async Task<List<GetBodyTypeDto>> GetAllTypes()
+        {
+            var type = await unitofWork.bodyTypeRepository.GetAll();
+            return mapper.Map<List<GetBodyTypeDto>>(type);
+        }
 
+        public async Task<GetBodyTypeDto> GetById(int id)
+        {
+            var type = await unitofWork.bodyTypeRepository.GetById(id);
+            return mapper.Map<GetBodyTypeDto>(type);
+        }
         public async Task CreateBodyType(CreateBodyTypeDto dto)
         {
-            if (await unitofWork.bodyTypeRepository.ExistsAsync(dto.BodyTypeName))
+            if (await unitofWork.bodyTypeRepository.ExistsAsync(dto.Name))
                 throw new Exception("Body type  with this name already exists");
             var type = mapper.Map<BodyType>(dto);
             await unitofWork.bodyTypeRepository.Create(type);
@@ -34,18 +44,6 @@ namespace TurboProject.BusinessLayer.Service.Impl
                 throw new KeyNotFoundException("Body type not found");
             unitofWork.bodyTypeRepository.Delete(type);
             await unitofWork.Commit();
-        }
-
-        public async Task<List<GetBodyTypeDto>> GetAllTypes()
-        {
-            var type = await unitofWork.bodyTypeRepository.GetAll();
-            return mapper.Map<List<GetBodyTypeDto>>(type);
-        }
-
-        public async Task<GetBodyTypeDto> GetById(int id)
-        {
-            var type = await unitofWork.bodyTypeRepository.GetById(id);
-            return mapper.Map<GetBodyTypeDto>(type);
         }
     }
 }

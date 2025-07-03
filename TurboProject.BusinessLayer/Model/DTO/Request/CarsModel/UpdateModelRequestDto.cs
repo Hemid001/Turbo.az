@@ -10,5 +10,6 @@ namespace TurboProject.BusinessLayer.Model.DTO.Request.CarsModel
     public class UpdateModelRequestDto:BaseEntity
     {
         public string Name { get; set; }
+        public int BrandId { get; set; }
     }
 }

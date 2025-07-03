@@ -16,5 +16,6 @@ namespace TurboProject.BusinessLayer.Service.Interface
         Task<GetCityDto> GetCityById(int id);
         Task CreateCity(CreateCityDto createCityDto);
         Task DeleteCity(int id);
+
     }
 }

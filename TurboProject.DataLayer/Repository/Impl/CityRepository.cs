@@ -21,7 +21,7 @@ namespace TurboProject.DataLayer.Repository.Impl
 
         public async Task<bool> ExistsAsync(string name)
         {
-            return await context.Cities.AnyAsync(ft => ft.CityName == name);
+            return await context.Cities.AnyAsync(ft => ft.Name == name);
         }
     }
 }

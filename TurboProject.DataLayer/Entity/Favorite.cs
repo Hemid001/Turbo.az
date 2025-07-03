@@ -1,18 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
 
-namespace TurboProject.DataLayer.Entity
-{
-    public class Favorite:BaseEntity
+    namespace TurboProject.DataLayer.Entity
     {
-        public int UserId { get; set; }
-        public User User { get; set; }
-        public int CarId { get; set; }
-        public Car Car { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public class Favorite:BaseEntity
+        {
+            public string UserId { get; set; }
+            public User User { get; set; }
+            public int CarId { get; set; }
+            public Car Car { get; set; }
+            public DateTime CreatedAt { get; set; }
 
+        }
     }
-}

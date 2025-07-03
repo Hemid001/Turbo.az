@@ -2,7 +2,7 @@
 {
     public class FuelType : BaseEntity
     {
-        public string FuelTypeName { get; set; }
+        public string Name { get; set; }
         public ICollection<Car> Cars { get; set; }
     }
 }

@@ -8,7 +8,7 @@ namespace TurboProject.DataLayer.Entity
 {
     public class Transmission :BaseEntity
     {
-        public string TransmissionName { get; set; }
+        public string Name { get; set; }
         public ICollection<Car> Cars { get; set; }
     }
 }

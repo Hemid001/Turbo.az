@@ -25,9 +25,20 @@ namespace TurboProject.BusinessLayer.Service.Impl
             this.mapper = mapper;
         }
 
+        public async Task<List<GetFuelTypeDto>> GetAllFuelTypes()
+        {
+            var type = await unitofWork.fuelTypeRepository.GetAll();
+            return mapper.Map<List<GetFuelTypeDto>>(type);
+        }
+
+        public async Task<GetFuelTypeDto> GetFuelTypeById(int id)
+        {
+            var type = await unitofWork.fuelTypeRepository.GetById(id);
+            return mapper.Map<GetFuelTypeDto>(type);
+        }
         public async Task CreateFuelType(CreateFuelTypeDto createFuelTypeDto)
         {
-            if (await unitofWork.fuelTypeRepository.ExistsAsync(createFuelTypeDto.FuelTypeName))
+            if (await unitofWork.fuelTypeRepository.ExistsAsync(createFuelTypeDto.Name))
                 throw new Exception("Fuel type  with this name already exists");
             var type = mapper.Map<FuelType>(createFuelTypeDto);
             await unitofWork.fuelTypeRepository.Create(type);
@@ -41,18 +52,6 @@ namespace TurboProject.BusinessLayer.Service.Impl
                 throw new KeyNotFoundException("Fuel type not found");
             unitofWork.fuelTypeRepository.Delete(type);
             await unitofWork.Commit();
-        }
-
-        public async Task<List<GetFuelTypeDto>> GetAllFuelTypes()
-        {
-            var type = await unitofWork.fuelTypeRepository.GetAll();
-            return mapper.Map<List<GetFuelTypeDto>>(type);
-        }
-
-        public async Task<GetFuelTypeDto> GetFuelTypeById(int id)
-        {
-            var type = await unitofWork.fuelTypeRepository.GetById(id);
-            return mapper.Map<GetFuelTypeDto>(type);
         }
     }
 }

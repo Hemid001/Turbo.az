@@ -10,10 +10,10 @@ namespace TurboProject.BusinessLayer.Service.Interface
 {
     public interface IEngineSizeService
     {
+        Task<List<GetEngineSizeDto>> GetAllEngineSizes();
+        Task<GetEngineSizeDto> GetEngineSizeById(int id);
         Task CreateEngineSize(CreateEngineSizeDto createDto);
         Task UpdateEngineSize(UpdateEngineSizeDto updateDto);
         Task DeleteEngineSize(int id);
-        Task<List<GetEngineSizeDto>> GetAllEngineSizes();
-        Task<GetEngineSizeDto> GetEngineSizeById(int id);
     }
 }

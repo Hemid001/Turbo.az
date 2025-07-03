@@ -1,0 +1,256 @@
+2025-06-06 00:46:22.214 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-06 00:46:22.257 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-06 00:46:22.261 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-06 00:46:22.431 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 00:46:22.844 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-06-06 00:46:22.935 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 00:46:22.937 +04:00 [INF] Hosting environment: Development
+2025-06-06 00:46:22.939 +04:00 [INF] Content root path: C:\Mac\Home\Desktop\Turbo.az\TurboProject.APILayer
+2025-06-06 00:46:23.518 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 690.6955ms
+2025-06-06 00:46:23.785 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-06-06 00:46:23.785 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 00:46:23.786 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-06-06 00:46:23.806 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 20.8323ms
+2025-06-06 00:46:23.807 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 20.7112ms
+2025-06-06 00:46:24.043 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 256.2632ms
+2025-06-06 00:46:24.135 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-06-06 00:46:24.237 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 100.9112ms
+2025-06-06 00:46:49.811 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-06-06 00:46:50.039 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-06-06 00:46:50.080 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-06-06 00:46:50.248 +04:00 [INF] Executed DbCommand (18ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[IsBlocked], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-06-06 00:46:50.418 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-06-06 00:46:50.442 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-06-06 00:46:50.447 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-06 00:46:50.460 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-06-06 00:46:50.513 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-06-06 00:46:50.525 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-06-06 00:46:50.814 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([Created], [CreatedByIp], [Expires], [ReplacedByToken], [Revoked], [RevokedByIp], [Token], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2025-06-06 00:46:50.846 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-06 00:46:50.856 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 772.426ms
+2025-06-06 00:46:50.858 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-06-06 00:46:50.867 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 200 null application/json; charset=utf-8 1064.2949ms
+2025-06-06 00:48:49.058 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/car - application/json 381
+2025-06-06 00:48:49.182 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.CarController.CreateCar (TurboProject.APILayer)'
+2025-06-06 00:48:49.197 +04:00 [INF] Route matched with {action = "CreateCar", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCar(TurboProject.BusinessLayer.Model.DTO.Request.Car.CreateCarRequestDto) on controller TurboProject.APILayer.Controllers.CarController (TurboProject.APILayer).
+2025-06-06 00:48:49.461 +04:00 [INF] Executed DbCommand (111ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (DbType = Int32), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p15='?' (Size = 4000), @p16='?' (DbType = Int32), @p17='?' (DbType = Int32), @p18='?' (DbType = Int32), @p19='?' (Size = 450), @p20='?' (Size = 4000), @p21='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cars] ([Barter], [BodyTypeId], [CityId], [CreatedAt], [Credit], [CurrencyType], [Description], [EngineSizeId], [FuelTypeId], [HP], [IsApproved], [IsSold], [Mileage], [ModelId], [Price], [RejectionReason], [SeatNumber], [StatusId], [TransmissionId], [UserId], [VinCode], [Year])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2025-06-06 00:48:49.479 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-06 00:48:49.487 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.CarController.CreateCar (TurboProject.APILayer) in 289.6635ms
+2025-06-06 00:48:49.489 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.CarController.CreateCar (TurboProject.APILayer)'
+2025-06-06 00:48:49.491 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/car - 200 null application/json; charset=utf-8 448.387ms
+2025-06-06 00:48:59.444 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/car - null null
+2025-06-06 00:48:59.461 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer)'
+2025-06-06 00:48:59.474 +04:00 [INF] Route matched with {action = "GetAllCars", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCars() on controller TurboProject.APILayer.Controllers.CarController (TurboProject.APILayer).
+2025-06-06 00:48:59.595 +04:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-06-06 00:48:59.683 +04:00 [INF] Executed DbCommand (71ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Barter], [c].[BodyTypeId], [c].[CityId], [c].[CreatedAt], [c].[Credit], [c].[CurrencyType], [c].[Description], [c].[EngineSizeId], [c].[FuelTypeId], [c].[HP], [c].[IsApproved], [c].[IsSold], [c].[Mileage], [c].[ModelId], [c].[Price], [c].[RejectionReason], [c].[SeatNumber], [c].[StatusId], [c].[TransmissionId], [c].[UserId], [c].[VinCode], [c].[Year], [m].[Id], [m].[BrandId], [m].[Name], [b].[Id], [b].[Name], [b0].[Id], [b0].[Name], [c0].[Id], [c0].[Name], [e].[Id], [e].[Engine], [f].[Id], [f].[Name], [t].[Id], [t].[Name], [s].[Id], [s].[EndTime], [s].[Name], [s].[Price], [f0].[Id], [f0].[CarId], [f0].[CreatedAt], [f0].[UserId], [i].[Id], [i].[CarId], [i].[ImageURL], [i].[IsPrimary], [f1].[Id], [f1].[CarId], [f1].[Name]
+FROM [Cars] AS [c]
+INNER JOIN [Models] AS [m] ON [c].[ModelId] = [m].[Id]
+INNER JOIN [Brands] AS [b] ON [m].[BrandId] = [b].[Id]
+INNER JOIN [BodyTypes] AS [b0] ON [c].[BodyTypeId] = [b0].[Id]
+INNER JOIN [Cities] AS [c0] ON [c].[CityId] = [c0].[Id]
+INNER JOIN [EngineSizes] AS [e] ON [c].[EngineSizeId] = [e].[Id]
+INNER JOIN [FuelTypes] AS [f] ON [c].[FuelTypeId] = [f].[Id]
+INNER JOIN [Transmissions] AS [t] ON [c].[TransmissionId] = [t].[Id]
+INNER JOIN [Statuses] AS [s] ON [c].[StatusId] = [s].[Id]
+LEFT JOIN [Favorites] AS [f0] ON [c].[Id] = [f0].[CarId]
+LEFT JOIN [Images] AS [i] ON [c].[Id] = [i].[CarId]
+LEFT JOIN [Features] AS [f1] ON [c].[Id] = [f1].[CarId]
+WHERE [c].[IsApproved] = CAST(1 AS bit)
+ORDER BY [c].[Id], [m].[Id], [b].[Id], [b0].[Id], [c0].[Id], [e].[Id], [f].[Id], [t].[Id], [s].[Id], [f0].[Id], [i].[Id]
+2025-06-06 00:48:59.704 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.Car.GetCarResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-06 00:48:59.713 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer) in 238.8352ms
+2025-06-06 00:48:59.716 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer)'
+2025-06-06 00:48:59.717 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/car - 200 null application/json; charset=utf-8 275.7125ms
+2025-06-06 00:53:52.288 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-06 00:53:52.331 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-06 00:53:52.334 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-06 00:53:52.455 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 00:53:52.685 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-06-06 00:53:52.734 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 00:53:52.735 +04:00 [INF] Hosting environment: Development
+2025-06-06 00:53:52.735 +04:00 [INF] Content root path: C:\Mac\Home\Desktop\Turbo.az\TurboProject.APILayer
+2025-06-06 00:53:52.971 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 290.4592ms
+2025-06-06 00:53:53.104 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 00:53:53.104 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-06-06 00:53:53.117 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 16.6642ms
+2025-06-06 00:53:53.124 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 13.0146ms
+2025-06-06 00:53:53.125 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-06-06 00:53:53.184 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.0003ms
+2025-06-06 00:53:53.352 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-06-06 00:53:53.392 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.8363ms
+2025-06-06 00:54:01.922 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/car - null null
+2025-06-06 00:54:02.654 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer)'
+2025-06-06 00:54:02.694 +04:00 [INF] Route matched with {action = "GetAllCars", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCars() on controller TurboProject.APILayer.Controllers.CarController (TurboProject.APILayer).
+2025-06-06 00:54:02.991 +04:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-06-06 00:54:03.058 +04:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Barter], [c].[BodyTypeId], [c].[CityId], [c].[CreatedAt], [c].[Credit], [c].[CurrencyType], [c].[Description], [c].[EngineSizeId], [c].[FuelTypeId], [c].[HP], [c].[IsApproved], [c].[IsSold], [c].[Mileage], [c].[ModelId], [c].[Price], [c].[RejectionReason], [c].[SeatNumber], [c].[StatusId], [c].[TransmissionId], [c].[UserId], [c].[VinCode], [c].[Year], [m].[Id], [m].[BrandId], [m].[Name], [b].[Id], [b].[Name], [b0].[Id], [b0].[Name], [c0].[Id], [c0].[Name], [e].[Id], [e].[Engine], [f].[Id], [f].[Name], [t].[Id], [t].[Name], [s].[Id], [s].[EndTime], [s].[Name], [s].[Price], [f0].[Id], [f0].[CarId], [f0].[CreatedAt], [f0].[UserId], [i].[Id], [i].[CarId], [i].[ImageURL], [i].[IsPrimary], [f1].[Id], [f1].[CarId], [f1].[Name]
+FROM [Cars] AS [c]
+INNER JOIN [Models] AS [m] ON [c].[ModelId] = [m].[Id]
+INNER JOIN [Brands] AS [b] ON [m].[BrandId] = [b].[Id]
+INNER JOIN [BodyTypes] AS [b0] ON [c].[BodyTypeId] = [b0].[Id]
+INNER JOIN [Cities] AS [c0] ON [c].[CityId] = [c0].[Id]
+INNER JOIN [EngineSizes] AS [e] ON [c].[EngineSizeId] = [e].[Id]
+INNER JOIN [FuelTypes] AS [f] ON [c].[FuelTypeId] = [f].[Id]
+INNER JOIN [Transmissions] AS [t] ON [c].[TransmissionId] = [t].[Id]
+INNER JOIN [Statuses] AS [s] ON [c].[StatusId] = [s].[Id]
+LEFT JOIN [Favorites] AS [f0] ON [c].[Id] = [f0].[CarId]
+LEFT JOIN [Images] AS [i] ON [c].[Id] = [i].[CarId]
+LEFT JOIN [Features] AS [f1] ON [c].[Id] = [f1].[CarId]
+WHERE [c].[IsApproved] = CAST(1 AS bit)
+ORDER BY [c].[Id], [m].[Id], [b].[Id], [b0].[Id], [c0].[Id], [e].[Id], [f].[Id], [t].[Id], [s].[Id], [f0].[Id], [i].[Id]
+2025-06-06 00:54:03.196 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.Car.GetCarResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-06 00:54:03.244 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer) in 542.8601ms
+2025-06-06 00:54:03.246 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer)'
+2025-06-06 00:54:03.261 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/car - 200 null application/json; charset=utf-8 1350.7544ms
+2025-06-06 00:56:01.328 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/account/login - application/json 58
+2025-06-06 00:56:01.382 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-06-06 00:56:01.406 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TurboProject.BusinessLayer.Model.DTO.Request.Account.LoginRequestDto) on controller TurboProject.APILayer.Controllers.AccountController (TurboProject.APILayer).
+2025-06-06 00:56:01.501 +04:00 [INF] Executed DbCommand (25ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedDate], [a].[Email], [a].[EmailConfirmed], [a].[IsBlocked], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[Surname], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-06-06 00:56:01.661 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-06-06 00:56:01.696 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-06-06 00:56:01.703 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-06 00:56:01.713 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-06-06 00:56:01.734 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-06-06 00:56:01.739 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-06-06 00:56:01.955 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([Created], [CreatedByIp], [Expires], [ReplacedByToken], [Revoked], [RevokedByIp], [Token], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2025-06-06 00:56:01.976 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[TurboProject.BusinessLayer.Model.DTO.Response.Account.LoginResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-06 00:56:01.981 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer) in 573.6442ms
+2025-06-06 00:56:01.982 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AccountController.Login (TurboProject.APILayer)'
+2025-06-06 00:56:01.985 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/account/login - 200 null application/json; charset=utf-8 666.9871ms
+2025-06-06 00:57:16.863 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/car - null null
+2025-06-06 00:57:16.991 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer)'
+2025-06-06 00:57:16.993 +04:00 [INF] Route matched with {action = "GetAllCars", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCars() on controller TurboProject.APILayer.Controllers.CarController (TurboProject.APILayer).
+2025-06-06 00:57:17.056 +04:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Barter], [c].[BodyTypeId], [c].[CityId], [c].[CreatedAt], [c].[Credit], [c].[CurrencyType], [c].[Description], [c].[EngineSizeId], [c].[FuelTypeId], [c].[HP], [c].[IsApproved], [c].[IsSold], [c].[Mileage], [c].[ModelId], [c].[Price], [c].[RejectionReason], [c].[SeatNumber], [c].[StatusId], [c].[TransmissionId], [c].[UserId], [c].[VinCode], [c].[Year], [m].[Id], [m].[BrandId], [m].[Name], [b].[Id], [b].[Name], [b0].[Id], [b0].[Name], [c0].[Id], [c0].[Name], [e].[Id], [e].[Engine], [f].[Id], [f].[Name], [t].[Id], [t].[Name], [s].[Id], [s].[EndTime], [s].[Name], [s].[Price], [f0].[Id], [f0].[CarId], [f0].[CreatedAt], [f0].[UserId], [i].[Id], [i].[CarId], [i].[ImageURL], [i].[IsPrimary], [f1].[Id], [f1].[CarId], [f1].[Name]
+FROM [Cars] AS [c]
+INNER JOIN [Models] AS [m] ON [c].[ModelId] = [m].[Id]
+INNER JOIN [Brands] AS [b] ON [m].[BrandId] = [b].[Id]
+INNER JOIN [BodyTypes] AS [b0] ON [c].[BodyTypeId] = [b0].[Id]
+INNER JOIN [Cities] AS [c0] ON [c].[CityId] = [c0].[Id]
+INNER JOIN [EngineSizes] AS [e] ON [c].[EngineSizeId] = [e].[Id]
+INNER JOIN [FuelTypes] AS [f] ON [c].[FuelTypeId] = [f].[Id]
+INNER JOIN [Transmissions] AS [t] ON [c].[TransmissionId] = [t].[Id]
+INNER JOIN [Statuses] AS [s] ON [c].[StatusId] = [s].[Id]
+LEFT JOIN [Favorites] AS [f0] ON [c].[Id] = [f0].[CarId]
+LEFT JOIN [Images] AS [i] ON [c].[Id] = [i].[CarId]
+LEFT JOIN [Features] AS [f1] ON [c].[Id] = [f1].[CarId]
+WHERE [c].[IsApproved] = CAST(1 AS bit)
+ORDER BY [c].[Id], [m].[Id], [b].[Id], [b0].[Id], [c0].[Id], [e].[Id], [f].[Id], [t].[Id], [s].[Id], [f0].[Id], [i].[Id]
+2025-06-06 00:57:17.064 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.Car.GetCarResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-06 00:57:17.068 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer) in 74.5358ms
+2025-06-06 00:57:17.068 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer)'
+2025-06-06 00:57:17.069 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/car - 200 null application/json; charset=utf-8 219.5107ms
+2025-06-06 00:57:43.163 +04:00 [INF] Request starting HTTP/2 POST https://localhost:44307/api/admin/approve-car/6 - null 0
+2025-06-06 00:57:43.203 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.AdminController.ApproveCar (TurboProject.APILayer)'
+2025-06-06 00:57:43.218 +04:00 [INF] Route matched with {action = "ApproveCar", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApproveCar(Int32) on controller TurboProject.APILayer.Controllers.AdminController (TurboProject.APILayer).
+2025-06-06 00:57:43.328 +04:00 [INF] Executed DbCommand (35ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Barter], [c].[BodyTypeId], [c].[CityId], [c].[CreatedAt], [c].[Credit], [c].[CurrencyType], [c].[Description], [c].[EngineSizeId], [c].[FuelTypeId], [c].[HP], [c].[IsApproved], [c].[IsSold], [c].[Mileage], [c].[ModelId], [c].[Price], [c].[RejectionReason], [c].[SeatNumber], [c].[StatusId], [c].[TransmissionId], [c].[UserId], [c].[VinCode], [c].[Year]
+FROM [Cars] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-06-06 00:57:43.436 +04:00 [INF] Executed DbCommand (50ms) [Parameters=[@p22='?' (DbType = Int32), @p0='?' (DbType = Boolean), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Boolean), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (DbType = Int32), @p10='?' (DbType = Boolean), @p11='?' (DbType = Boolean), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p15='?' (Size = 4000), @p16='?' (DbType = Int32), @p17='?' (DbType = Int32), @p18='?' (DbType = Int32), @p19='?' (Size = 450), @p20='?' (Size = 4000), @p21='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Cars] SET [Barter] = @p0, [BodyTypeId] = @p1, [CityId] = @p2, [CreatedAt] = @p3, [Credit] = @p4, [CurrencyType] = @p5, [Description] = @p6, [EngineSizeId] = @p7, [FuelTypeId] = @p8, [HP] = @p9, [IsApproved] = @p10, [IsSold] = @p11, [Mileage] = @p12, [ModelId] = @p13, [Price] = @p14, [RejectionReason] = @p15, [SeatNumber] = @p16, [StatusId] = @p17, [TransmissionId] = @p18, [UserId] = @p19, [VinCode] = @p20, [Year] = @p21
+OUTPUT 1
+WHERE [Id] = @p22;
+2025-06-06 00:57:43.443 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-06 00:57:43.447 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.AdminController.ApproveCar (TurboProject.APILayer) in 228.4531ms
+2025-06-06 00:57:43.448 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.AdminController.ApproveCar (TurboProject.APILayer)'
+2025-06-06 00:57:43.452 +04:00 [INF] Request finished HTTP/2 POST https://localhost:44307/api/admin/approve-car/6 - 200 null application/json; charset=utf-8 296.6842ms
+2025-06-06 00:57:51.311 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/api/car - null null
+2025-06-06 00:57:51.333 +04:00 [INF] Executing endpoint 'TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer)'
+2025-06-06 00:57:51.336 +04:00 [INF] Route matched with {action = "GetAllCars", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCars() on controller TurboProject.APILayer.Controllers.CarController (TurboProject.APILayer).
+2025-06-06 00:57:51.431 +04:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Barter], [c].[BodyTypeId], [c].[CityId], [c].[CreatedAt], [c].[Credit], [c].[CurrencyType], [c].[Description], [c].[EngineSizeId], [c].[FuelTypeId], [c].[HP], [c].[IsApproved], [c].[IsSold], [c].[Mileage], [c].[ModelId], [c].[Price], [c].[RejectionReason], [c].[SeatNumber], [c].[StatusId], [c].[TransmissionId], [c].[UserId], [c].[VinCode], [c].[Year], [m].[Id], [m].[BrandId], [m].[Name], [b].[Id], [b].[Name], [b0].[Id], [b0].[Name], [c0].[Id], [c0].[Name], [e].[Id], [e].[Engine], [f].[Id], [f].[Name], [t].[Id], [t].[Name], [s].[Id], [s].[EndTime], [s].[Name], [s].[Price], [f0].[Id], [f0].[CarId], [f0].[CreatedAt], [f0].[UserId], [i].[Id], [i].[CarId], [i].[ImageURL], [i].[IsPrimary], [f1].[Id], [f1].[CarId], [f1].[Name]
+FROM [Cars] AS [c]
+INNER JOIN [Models] AS [m] ON [c].[ModelId] = [m].[Id]
+INNER JOIN [Brands] AS [b] ON [m].[BrandId] = [b].[Id]
+INNER JOIN [BodyTypes] AS [b0] ON [c].[BodyTypeId] = [b0].[Id]
+INNER JOIN [Cities] AS [c0] ON [c].[CityId] = [c0].[Id]
+INNER JOIN [EngineSizes] AS [e] ON [c].[EngineSizeId] = [e].[Id]
+INNER JOIN [FuelTypes] AS [f] ON [c].[FuelTypeId] = [f].[Id]
+INNER JOIN [Transmissions] AS [t] ON [c].[TransmissionId] = [t].[Id]
+INNER JOIN [Statuses] AS [s] ON [c].[StatusId] = [s].[Id]
+LEFT JOIN [Favorites] AS [f0] ON [c].[Id] = [f0].[CarId]
+LEFT JOIN [Images] AS [i] ON [c].[Id] = [i].[CarId]
+LEFT JOIN [Features] AS [f1] ON [c].[Id] = [f1].[CarId]
+WHERE [c].[IsApproved] = CAST(1 AS bit)
+ORDER BY [c].[Id], [m].[Id], [b].[Id], [b0].[Id], [c0].[Id], [e].[Id], [f].[Id], [t].[Id], [s].[Id], [f0].[Id], [i].[Id]
+2025-06-06 00:57:51.503 +04:00 [INF] Executing OkObjectResult, writing value of type 'TurboProject.BusinessLayer.Model.ApiResponse.ApiResponse`1[[System.Collections.Generic.List`1[[TurboProject.BusinessLayer.Model.DTO.Response.Car.GetCarResponseDto, TurboProject.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-06 00:57:51.512 +04:00 [INF] Executed action TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer) in 174.408ms
+2025-06-06 00:57:51.512 +04:00 [INF] Executed endpoint 'TurboProject.APILayer.Controllers.CarController.GetAllCars (TurboProject.APILayer)'
+2025-06-06 00:57:51.516 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/api/car - 200 null application/json; charset=utf-8 217.5018ms

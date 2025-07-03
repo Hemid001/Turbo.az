@@ -9,8 +9,8 @@ namespace TurboProject.DataLayer.Repository.Interface
 {
     public interface IFavoriteRepository:IGenericRepository<Favorite>
     {
-        Task<bool> ExistsAsync(int userId, int carId);
-        Task<List<Favorite>> GetUserFavorites(int userId);
-        Task<Favorite> GetByUserAndCar(int userId, int carId);
+        Task<bool> ExistsAsync(string userId, int carId);
+        Task<List<Favorite>> GetUserFavorites(string userId);
+        Task<Favorite> GetByUserAndCar(string userId, int carId);
     }
 }

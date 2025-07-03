@@ -21,7 +21,7 @@ namespace TurboProject.DataLayer.Repository.Impl
 
         public async  Task<bool> ExistsAsync(string name)
         {
-            return await context.BodyTypes.AnyAsync(bd => bd.BodyTypeName == name);
+            return await context.BodyTypes.AnyAsync(bd => bd.Name == name);
         }
     }
 }

@@ -9,6 +9,6 @@ namespace TurboProject.BusinessLayer.Model.DTO.Response.City
 {
     public class GetCityDto:BaseEntity
     {
-        public string CityName { get; set; }
+        public string Name { get; set; }
     }
 }

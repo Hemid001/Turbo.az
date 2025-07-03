@@ -8,7 +8,7 @@ namespace TurboProject.DataLayer.Entity
 {
     public class Feature:BaseEntity
     {
-        public string FeatureName { get; set; }
+        public string Name { get; set; }
         public int CarId { get; set; }
         public Car Car { get; set; }
 

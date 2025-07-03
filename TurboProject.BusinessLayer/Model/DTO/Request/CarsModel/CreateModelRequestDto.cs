@@ -9,5 +9,6 @@ namespace TurboProject.BusinessLayer.Model.DTO.Request.CarsModel
     public class CreateModelRequestDto
     {
         public string Name { get; set; }
+        public int BrandId { get; set; }
     }
 }

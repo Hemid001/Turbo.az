@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using TurboProject.BusinessLayer.Mapper;
@@ -44,8 +45,11 @@ namespace TurboProject.BusinessLayer
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    ClockSkew = TimeSpan.Zero
+                    ClockSkew = TimeSpan.Zero,
+                    NameClaimType = ClaimTypes.NameIdentifier,
+                    RoleClaimType = ClaimTypes.Role
                 };
+
             });
             var serviceProvider = services.BuildServiceProvider();
             var roleManager = serviceProvider.GetRequiredService<RoleManager<Role>>();
@@ -58,6 +62,7 @@ namespace TurboProject.BusinessLayer
             services.AddScoped<ICarService, CarService>();
             services.AddScoped<ICarsModelService,CarsModelService>();
             services.AddScoped<IBrandService, BrandService>();
+            services.AddScoped<IFuelTypeService, FuelTypeService>();
             services.AddScoped<IEngineSizeService, EngineSizeService>();
             services.AddScoped<ITransmissionService, TransmissionService>();
             services.AddScoped<ICityService, CityService>();
@@ -69,6 +74,8 @@ namespace TurboProject.BusinessLayer
             services.AddScoped<IFeatureService, FeatureService>();
             services.AddScoped<IAdminService, AdminService>();
             services.AddScoped<IRedisService, RedisService>();
+            services.AddScoped<ITokenService, TokenService>();
+
 
         }
         public static async Task SeedRolesAsync(this IServiceProvider serviceProvider)

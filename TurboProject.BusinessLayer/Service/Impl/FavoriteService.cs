@@ -19,7 +19,7 @@ namespace TurboProject.BusinessLayer.Service.Impl
             this.mapper = mapper;
         }
 
-        public async Task AddToFavoritesAsync(int userId, CreateFavoriteDto dto)
+        public async Task AddToFavoritesAsync(string userId, CreateFavoriteDto dto)
         {
             if (await unitofWork.favoriteRepository.ExistsAsync(userId, dto.CarId))
                 throw new InvalidOperationException("Car is already in favorites.");
@@ -31,13 +31,13 @@ namespace TurboProject.BusinessLayer.Service.Impl
             await unitofWork.Commit();
         }
 
-        public async Task<List<GetFavoriteDto>> GetUserFavoritesAsync(int userId)
+        public async Task<List<GetFavoriteDto>> GetUserFavoritesAsync(string userId)
         {
             var favorites = await unitofWork.favoriteRepository.GetUserFavorites(userId);
             return mapper.Map<List<GetFavoriteDto>>(favorites);
         }
 
-        public async Task RemoveFromFavoritesAsync(int userId, int carId)
+        public async Task RemoveFromFavoritesAsync(string userId, int carId)
         {
             var favorite = await unitofWork.favoriteRepository.GetByUserAndCar(userId, carId);
             if (favorite == null)

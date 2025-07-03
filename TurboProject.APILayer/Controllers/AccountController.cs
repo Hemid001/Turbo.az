@@ -1,17 +1,16 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using TurboProject.BusinessLayer.Model.ApiResponse;
 using TurboProject.BusinessLayer.Model.DTO.Request.Account;
 using TurboProject.BusinessLayer.Model.DTO.Response.Account;
-using TurboProject.BusinessLayer.Service.Impl;
 using TurboProject.BusinessLayer.Service.Interface;
 using TurboProject.DataLayer.Entity;
 
 namespace TurboProject.APILayer.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/account")]
     [ApiController]
     public class AccountController : ControllerBase
     {
@@ -21,9 +20,11 @@ namespace TurboProject.APILayer.Controllers
         private readonly IMapper mapper;
         private readonly IEmailService emailService;
         private readonly IRedisService redisService;
+        private readonly ITokenService tokenService;
 
         public AccountController(UserManager<User> userManager, SignInManager<User> signInManager,
-            IJWTService jWTService, IMapper mapper, IEmailService emailService, IRedisService redisService)
+            IJWTService jWTService, IMapper mapper, IEmailService emailService, IRedisService redisService,
+            ITokenService tokenService)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
@@ -31,9 +32,10 @@ namespace TurboProject.APILayer.Controllers
             this.mapper = mapper;
             this.emailService = emailService;
             this.redisService = redisService;
+            this.tokenService = tokenService;
         }
 
-        [HttpPost("Register")]
+        [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequestDto model)
         {
             var response = new ApiResponse<string>();
@@ -60,7 +62,7 @@ namespace TurboProject.APILayer.Controllers
             // Сохраняем пользователя в Redis
             var user = mapper.Map<User>(model);
             user.Id = Guid.NewGuid().ToString();
-            user.PasswordHash=model.Password;
+            user.PasswordHash = model.Password;
 
             try
             {
@@ -130,13 +132,12 @@ namespace TurboProject.APILayer.Controllers
             return Ok(response);
         }
 
-
-        [HttpPost("Login")]
+        [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequestDto model)
         {
             var response = new ApiResponse<LoginResponseDto>();
-
             var user = await userManager.FindByEmailAsync(model.Email);
+
             if (user == null)
             {
                 response.Error("Incorrect email or password");
@@ -144,6 +145,10 @@ namespace TurboProject.APILayer.Controllers
             }
 
             var result = await signInManager.PasswordSignInAsync(user, model.Password, false, false);
+            if (result.IsLockedOut)
+            {
+                return Forbid("Account is locked");
+            }
             if (!result.Succeeded)
             {
                 response.Error("Incorrect email or password");
@@ -151,17 +156,39 @@ namespace TurboProject.APILayer.Controllers
             }
 
             var roles = await userManager.GetRolesAsync(user);
-            var token = jWTService.GenerateToken(user, roles.ToList());
+            var tokens = await tokenService.GenerateTokensAsync(
+                user,
+                roles,
+                HttpContext.Connection.RemoteIpAddress?.ToString()
+            );
 
-            response.Success(new LoginResponseDto
-            {
-                Token = token,
-                Email = user.Email,
-                Roles = roles.ToList()
-            });
-
+            response.Success(tokens);
             return Ok(response);
         }
+
+
+        [HttpPost("refresh")]
+        public async Task<IActionResult> Refresh([FromBody] RefreshRequestDto model)
+        {
+            var response = new ApiResponse<LoginResponseDto>();
+            try
+            {
+                var tokens = await tokenService
+           .RefreshAsync(
+               model.RefreshToken,
+               HttpContext.Connection.RemoteIpAddress?.ToString()
+           );
+
+                response.Success(tokens);
+                return Ok(response);
+            }
+            catch (SecurityTokenException ex)
+            {
+                response.Error(ex.Message);
+                return Unauthorized(response);
+            }
+        }
+
 
     }
 }

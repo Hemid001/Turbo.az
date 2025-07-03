@@ -9,6 +9,6 @@ namespace TurboProject.BusinessLayer.Model.DTO.Response.FuelType
 {
     public class GetFuelTypeDto:BaseEntity
     {
-        public string FuelTypeName { get; set; }
+        public string Name { get; set; }
     }
 }

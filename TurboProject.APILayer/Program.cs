@@ -11,6 +11,11 @@ using TurboProject.DomainLayer;
 using TurboProject.BusinessLayer.Model.Smtp;
 using TurboProject.BusinessLayer.Service.Interface;
 using TurboProject.BusinessLayer.Service.Impl;
+using FluentValidation;
+using TurboProject.BusinessLayer.Validators.Account;
+using TurboProject.BusinessLayer.Validators.Car;
+using TurboProject.BusinessLayer.Validators.Favorite;
+using TurboProject.BusinessLayer.Validators.Login;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -62,6 +67,10 @@ services.AddDataAccessLayerConfig(configuration);
 services.AddDomainLayerConfig();
 services.AddBusinessLayerConfig(configuration);
 services.AddControllers();
+services.AddValidatorsFromAssemblyContaining<RegisterRequestDtoValidator>();
+services.AddValidatorsFromAssemblyContaining<CreateCarRequestDtoValidator>();
+services.AddValidatorsFromAssemblyContaining<CreateFavoriteDtoValidator>();
+services.AddValidatorsFromAssemblyContaining<LoginRequestDtoValidator>();
 services.AddEndpointsApiExplorer();
 services.AddSwaggerGen();
 
@@ -73,11 +82,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 await app.Services.SeedRolesAsync();
 
-app.UseMiddleware<GlobalExceptionHandlerMiddleware>(); 
+app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 
+app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 

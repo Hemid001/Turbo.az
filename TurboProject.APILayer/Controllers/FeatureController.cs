@@ -29,8 +29,8 @@ namespace TurboProject.APILayer.Controllers
             return Ok(response);
         }
 
-        [HttpPost]
         [Authorize(Roles = "Admin")]
+        [HttpPost]
         public async Task<IActionResult> AddFeature([FromBody] CreateFeatureDto dto)
         {
             var response = new ApiResponse<string>();
@@ -45,12 +45,14 @@ namespace TurboProject.APILayer.Controllers
             return Ok(response);
         }
 
-        [HttpDelete("{id}")]
         [Authorize(Roles = "Admin")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteFeature(int id)
         {
+            var response = new ApiResponse<string>();
             await featureService.DeleteFeature(id);
-            return Ok();
+            response.Success("Feature deleted successfully.");
+            return Ok(response);
         }
     }
 }

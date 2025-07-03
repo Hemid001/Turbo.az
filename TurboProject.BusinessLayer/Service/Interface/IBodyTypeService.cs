@@ -14,5 +14,6 @@ namespace TurboProject.BusinessLayer.Service.Interface
         Task<GetBodyTypeDto> GetById(int id);
         Task CreateBodyType(CreateBodyTypeDto dto);
         Task DeleteBodyType(int id);
+
     }
 }

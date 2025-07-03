@@ -8,7 +8,7 @@ namespace TurboProject.BusinessLayer.Model.DTO.Request.Features
 {
     public class CreateFeatureDto
     {
-        public string FeatureName { get; set; }
+        public string Name { get; set; }
         public int CarId { get; set; }
     }
 }

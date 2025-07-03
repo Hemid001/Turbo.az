@@ -12,9 +12,8 @@ namespace TurboProject.BusinessLayer.Service.Interface
     {
         Task<List<GetBrandDto>> GetAllBrands();
         Task<GetBrandDto> GetBrandById(int id);
-        Task CreateBrand (CreateBrandDto createBrandDto);
-        Task UpdateBrand (UpdateBrandDto updateBrandDto);
-        Task DeleteBrand (int id);
-
+        Task CreateBrand(CreateBrandDto createBrandDto);
+        Task UpdateBrand(UpdateBrandDto updateBrandDto);
+        Task DeleteBrand(int id);
     }
 }

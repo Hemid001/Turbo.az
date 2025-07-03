@@ -2,8 +2,8 @@
 {
     public class GetCarFilteredRequestDto
     {
-        public string Model { get; set; }
-        public string Category { get; set; }
+        public string? Model { get; set; }
+        public string? Category { get; set; }
         public string? City { get; set; }
         public string? FuelType { get; set; }
         public string? Transmission { get; set; }

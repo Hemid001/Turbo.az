@@ -21,7 +21,7 @@ namespace TurboProject.DataLayer.Repository.Impl
 
         public async Task<Status> GetByNameAsync(string name)
         {
-            return await context.Statuses.FirstOrDefaultAsync(s => s.StatusName == name);
+            return await context.Statuses.FirstOrDefaultAsync(s => s.Name == name);
         }
     }
 }
