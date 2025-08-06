@@ -1,0 +1,43 @@
+2025-08-06 21:16:04.627 +04:00 [INF] Executed DbCommand (28ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-08-06 21:16:05.006 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-08-06 21:16:05.021 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-08-06 21:16:06.096 +04:00 [INF] User profile is available. Using 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-06 21:16:06.754 +04:00 [INF] Creating key {ea28912a-2a08-451d-97a0-afbd555bb09e} with creation date 2025-08-06 17:16:06Z, activation date 2025-08-06 17:16:06Z, and expiration date 2025-11-04 17:16:06Z.
+2025-08-06 21:16:06.834 +04:00 [INF] Writing data to file 'C:\Users\gamidismailov\AppData\Local\ASP.NET\DataProtection-Keys\key-ea28912a-2a08-451d-97a0-afbd555bb09e.xml'.
+2025-08-06 21:16:08.206 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - null null
+2025-08-06 21:16:08.431 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-06 21:16:08.437 +04:00 [INF] Hosting environment: Development
+2025-08-06 21:16:08.438 +04:00 [INF] Content root path: C:\Mac\Home\Desktop\Turbo.az\TurboProject.APILayer
+2025-08-06 21:16:11.141 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.js - null null
+2025-08-06 21:16:11.141 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js - null null
+2025-08-06 21:16:11.141 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.css - null null
+2025-08-06 21:16:11.083 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.html - 200 null text/html;charset=utf-8 2791.2262ms
+2025-08-06 21:16:11.175 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 21:16:11.176 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.js - 200 null application/javascript;charset=utf-8 51.604ms
+2025-08-06 21:16:11.196 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/swagger-ui-bundle.js - null null
+2025-08-06 21:16:11.228 +04:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2025-08-06 21:16:11.228 +04:00 [INF] The file /swagger-ui-bundle.js was not modified
+2025-08-06 21:16:11.229 +04:00 [INF] The file /index.css was not modified
+2025-08-06 21:16:11.229 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 53.054ms
+2025-08-06 21:16:11.238 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/index.css - 304 null text/css 96.8556ms
+2025-08-06 21:16:11.238 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 96.6284ms
+2025-08-06 21:16:11.238 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - null null
+2025-08-06 21:16:11.239 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/swagger-ui-bundle.js - 304 null text/javascript 42.959ms
+2025-08-06 21:16:11.241 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/swagger-ui.css - null null
+2025-08-06 21:16:11.244 +04:00 [INF] The file /swagger-ui.css was not modified
+2025-08-06 21:16:11.246 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/swagger-ui.css - 304 null text/css 7.0604ms
+2025-08-06 21:16:12.876 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1573.4502ms
+2025-08-06 21:16:13.110 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - null null
+2025-08-06 21:16:13.110 +04:00 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/favicon-32x32.png - null null
+2025-08-06 21:16:13.163 +04:00 [INF] The file /favicon-32x32.png was not modified
+2025-08-06 21:16:13.200 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/favicon-32x32.png - 304 null image/png 211.2377ms
+2025-08-06 21:16:13.402 +04:00 [INF] Request finished HTTP/2 GET https://localhost:44307/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 291.566ms
