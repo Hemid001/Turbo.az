@@ -18,6 +18,8 @@ using TurboProject.BusinessLayer.Validators.Favorite;
 using TurboProject.BusinessLayer.Validators.Login;
 
 var builder = WebApplication.CreateBuilder(args);
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 var configuration = builder.Configuration;
 var services = builder.Services;
 
